@@ -35,7 +35,7 @@
 
     <war destfile="dist/${name}-${version}.war"
 	 webxml="war/WEB-INF/web.xml" basedir="war/">
-      <lib file="dist/${name}-${version}.jar"/>
+      <lib file="dist/${name}-${version}-lib.jar"/>
       <lib dir="lib/"/>
     </war>
 </target>
