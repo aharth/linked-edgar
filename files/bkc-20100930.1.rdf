@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bkh="http://www.company.com/20100930" xmlns:dei="http://xbrl.us/dei/2009-01-31" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-gaap="http://xbrl.us/us-gaap/2009-01-31" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ical="http://www.w3.org/2002/12/cal/ical#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:gaap="http://edgarwrap.ontologycentral.com/vocab/us-gaap#" xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#" xmlns:qb="http://purl.org/linked-data/cube#">
+  <gaap:AccountsNotesAndLoansReceivableNetCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>142900000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AccountsNotesAndLoansReceivableNetCurrent>
+  <gaap:AccountsNotesAndLoansReceivableNetCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>142000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AccountsNotesAndLoansReceivableNetCurrent>
+  <gaap:AccountsPayableCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>106900000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AccountsPayableCurrent>
+  <gaap:AccountsPayableCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>94700000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AccountsPayableCurrent>
+  <gaap:AccruedLiabilitiesCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>200900000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AccruedLiabilitiesCurrent>
+  <gaap:AccruedLiabilitiesCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>230400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AccruedLiabilitiesCurrent>
+  <gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>666900000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+  <gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>663000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment>
+  <gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-66900000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+  <gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-57900000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax>
+  <gaap:AdditionalPaidInCapitalCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>647200000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AdditionalPaidInCapitalCommonStock>
+  <gaap:AdditionalPaidInCapitalCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>654800000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AdditionalPaidInCapitalCommonStock>
+  <gaap:Assets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2747200000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:Assets>
+  <gaap:Assets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2825400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:Assets>
+  <gaap:AssetsCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>434000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:AssetsCurrent>
+  <gaap:AssetsCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>493700000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:AssetsCurrent>
+  <gaap:CapitalLeaseObligationsIncurred>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1400000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CapitalLeaseObligationsIncurred>
+  <gaap:CapitalLeaseObligationsNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>65300000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CapitalLeaseObligationsNoncurrent>
+  <gaap:CapitalLeaseObligationsNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>64400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CapitalLeaseObligationsNoncurrent>
+  <gaap:CapitalLeasesNetInvestmentInDirectFinancingLeases>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>138500000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CapitalLeasesNetInvestmentInDirectFinancingLeases>
+  <gaap:CapitalLeasesNetInvestmentInDirectFinancingLeases>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>140600000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CapitalLeasesNetInvestmentInDirectFinancingLeases>
+  <gaap:CashAndCashEquivalentsAtCarryingValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>121700000</sdmx-measure:obsValue>
+    <dc:date>2009-06-30</dc:date>
+  </gaap:CashAndCashEquivalentsAtCarryingValue>
+  <gaap:CashAndCashEquivalentsAtCarryingValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>132500000</sdmx-measure:obsValue>
+    <dc:date>2009-09-30</dc:date>
+  </gaap:CashAndCashEquivalentsAtCarryingValue>
+  <gaap:CashAndCashEquivalentsAtCarryingValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>187600000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CashAndCashEquivalentsAtCarryingValue>
+  <gaap:CashAndCashEquivalentsAtCarryingValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>247900000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CashAndCashEquivalentsAtCarryingValue>
+  <gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>10800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>60300000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CashAndCashEquivalentsPeriodIncreaseDecrease>
+  <gaap:CommitmentsAndContingencies2009>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue/>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2010-06-30</ical:dtend>
+  </gaap:CommitmentsAndContingencies2009>
+  <gaap:CommitmentsAndContingencies2009>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue/>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CommitmentsAndContingencies2009>
+  <gaap:CommonStockDividendsPerShareDeclared>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.06</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CommonStockDividendsPerShareDeclared>
+  <gaap:CommonStockDividendsPerShareDeclared>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.06</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CommonStockDividendsPerShareDeclared>
+  <gaap:CommonStockParOrStatedValuePerShare>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.01</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CommonStockParOrStatedValuePerShare>
+  <gaap:CommonStockParOrStatedValuePerShare>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.01</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CommonStockParOrStatedValuePerShare>
+  <gaap:CommonStockSharesAuthorized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>300000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CommonStockSharesAuthorized>
+  <gaap:CommonStockSharesAuthorized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>300000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CommonStockSharesAuthorized>
+  <gaap:CommonStockSharesIssued>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>135814644</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CommonStockSharesIssued>
+  <gaap:CommonStockSharesIssued>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>136505958</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CommonStockSharesIssued>
+  <gaap:CommonStockSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>135814644</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CommonStockSharesOutstanding>
+  <gaap:CommonStockSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>136505958</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CommonStockSharesOutstanding>
+  <gaap:CommonStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1400000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:CommonStockValue>
+  <gaap:CommonStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:CommonStockValue>
+  <gaap:CostOfGoodsSold>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>408300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CostOfGoodsSold>
+  <gaap:CostOfGoodsSold>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>371300000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CostOfGoodsSold>
+  <gaap:CostOfGoodsSoldDirectLabor>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>144800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldDirectLabor>
+  <gaap:CostOfGoodsSoldDirectLabor>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>128900000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldDirectLabor>
+  <gaap:CostOfGoodsSoldDirectMaterials>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>148800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldDirectMaterials>
+  <gaap:CostOfGoodsSoldDirectMaterials>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>135800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldDirectMaterials>
+  <gaap:CostOfGoodsSoldOverhead>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>114700000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldOverhead>
+  <gaap:CostOfGoodsSoldOverhead>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>106600000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CostOfGoodsSoldOverhead>
+  <gaap:CostsAndExpenses>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>553900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:CostsAndExpenses>
+  <gaap:CostsAndExpenses>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>509200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:CostsAndExpenses>
+  <gaap:DeferredIncomeTaxExpenseBenefit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>3400000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:DeferredIncomeTaxExpenseBenefit>
+  <gaap:DeferredIncomeTaxExpenseBenefit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-12500000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:DeferredIncomeTaxExpenseBenefit>
+  <gaap:DeferredTaxAssetsNetCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>15100000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:DeferredTaxAssetsNetCurrent>
+  <gaap:DeferredTaxAssetsNetCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>43100000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:DeferredTaxAssetsNetCurrent>
+  <gaap:DeferredTaxLiabilitiesNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>68200000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:DeferredTaxLiabilitiesNoncurrent>
+  <gaap:DeferredTaxLiabilitiesNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>94000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:DeferredTaxLiabilitiesNoncurrent>
+  <gaap:DepreciationAndAmortization>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>25100000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:DepreciationAndAmortization>
+  <gaap:DepreciationAndAmortization>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>25600000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:DepreciationAndAmortization>
+  <gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>14700000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment>
+  <gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>15500000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment>
+  <gaap:EarningsPerShareBasic>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.35</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:EarningsPerShareBasic>
+  <gaap:EarningsPerShareBasic>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.47</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:EarningsPerShareBasic>
+  <gaap:EarningsPerShareDiluted>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.34</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:EarningsPerShareDiluted>
+  <gaap:EarningsPerShareDiluted>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.46</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:EarningsPerShareDiluted>
+  <gaap:EffectOfExchangeRateOnCashAndCashEquivalents>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>3500000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:EffectOfExchangeRateOnCashAndCashEquivalents>
+  <gaap:EffectOfExchangeRateOnCashAndCashEquivalents>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>8800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:EffectOfExchangeRateOnCashAndCashEquivalents>
+  <gaap:ExcessTaxBenefitFromShareBasedCompensationFinancingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>700000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ExcessTaxBenefitFromShareBasedCompensationFinancingActivities>
+  <gaap:ExcessTaxBenefitFromShareBasedCompensationFinancingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ExcessTaxBenefitFromShareBasedCompensationFinancingActivities>
+  <gaap:ForeignCurrencyTransactionGainLossUnrealized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>12300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ForeignCurrencyTransactionGainLossUnrealized>
+  <gaap:ForeignCurrencyTransactionGainLossUnrealized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>33000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ForeignCurrencyTransactionGainLossUnrealized>
+  <gaap:FranchiseRevenue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>138700000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:FranchiseRevenue>
+  <gaap:FranchiseRevenue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>141600000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:FranchiseRevenue>
+  <gaap:GainLossOnDispositionOfAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:GainLossOnDispositionOfAssets>
+  <gaap:GainLossOnDispositionOfAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>5000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:GainLossOnDispositionOfAssets>
+  <gaap:GainLossOnSaleOfDerivatives>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:GainLossOnSaleOfDerivatives>
+  <gaap:GainLossOnSaleOfDerivatives>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>400000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:GainLossOnSaleOfDerivatives>
+  <gaap:Goodwill>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>31000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:Goodwill>
+  <gaap:Goodwill>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>31300000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:Goodwill>
+  <gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>70500000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments>
+  <gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>78500000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments>
+  <gaap:IncomeTaxesPaid>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>6800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncomeTaxesPaid>
+  <gaap:IncomeTaxesPaid>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>24300000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncomeTaxesPaid>
+  <gaap:IncomeTaxExpenseBenefit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>23900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncomeTaxExpenseBenefit>
+  <gaap:IncomeTaxExpenseBenefit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>15100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncomeTaxExpenseBenefit>
+  <gaap:IncreaseDecreaseInAccountsAndNotesReceivable>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-2600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInAccountsAndNotesReceivable>
+  <gaap:IncreaseDecreaseInAccountsAndNotesReceivable>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-7900000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInAccountsAndNotesReceivable>
+  <gaap:IncreaseDecreaseInAccountsPayable>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-44100000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInAccountsPayable>
+  <gaap:IncreaseDecreaseInAccountsPayable>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-13000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInAccountsPayable>
+  <gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-9600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+  <gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>15800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInOtherAccruedLiabilities>
+  <gaap:IncreaseDecreaseInOtherOperatingCapitalNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-3600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInOtherOperatingCapitalNet>
+  <gaap:IncreaseDecreaseInOtherOperatingCapitalNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>6700000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInOtherOperatingCapitalNet>
+  <gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-5900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+  <gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-28300000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets>
+  <gaap:IntangibleAssetsNetExcludingGoodwill>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1025400000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:IntangibleAssetsNetExcludingGoodwill>
+  <gaap:IntangibleAssetsNetExcludingGoodwill>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1048000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:IntangibleAssetsNetExcludingGoodwill>
+  <gaap:InterestExpense>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>12800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:InterestExpense>
+  <gaap:InterestExpense>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>12500000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:InterestExpense>
+  <gaap:InterestPaid>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>12600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:InterestPaid>
+  <gaap:InterestPaid>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>12100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:InterestPaid>
+  <gaap:InvestmentIncomeInterest>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:InvestmentIncomeInterest>
+  <gaap:InvestmentIncomeInterest>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:InvestmentIncomeInterest>
+  <gaap:Liabilities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1618800000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:Liabilities>
+  <gaap:Liabilities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1627200000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:Liabilities>
+  <gaap:LiabilitiesAndStockholdersEquity>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2747200000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:LiabilitiesAndStockholdersEquity>
+  <gaap:LiabilitiesAndStockholdersEquity>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2825400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:LiabilitiesAndStockholdersEquity>
+  <gaap:LiabilitiesCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>473000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:LiabilitiesCurrent>
+  <gaap:LiabilitiesCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>476300000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:LiabilitiesCurrent>
+  <gaap:LongTermDebtAndCapitalLeaseObligationsCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>93300000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:LongTermDebtAndCapitalLeaseObligationsCurrent>
+  <gaap:LongTermDebtAndCapitalLeaseObligationsCurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>71600000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:LongTermDebtAndCapitalLeaseObligationsCurrent>
+  <gaap:LongTermDebtNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>667700000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:LongTermDebtNoncurrent>
+  <gaap:LongTermDebtNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>667400000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:LongTermDebtNoncurrent>
+  <gaap:NetCashProvidedByUsedInFinancingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-11900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInFinancingActivities>
+  <gaap:NetCashProvidedByUsedInFinancingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-29400000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInFinancingActivities>
+  <gaap:NetCashProvidedByUsedInInvestingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-28800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInInvestingActivities>
+  <gaap:NetCashProvidedByUsedInInvestingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-1200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInInvestingActivities>
+  <gaap:NetCashProvidedByUsedInOperatingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>48000000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInOperatingActivities>
+  <gaap:NetCashProvidedByUsedInOperatingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>82100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:NetCashProvidedByUsedInOperatingActivities>
+  <gaap:NetIncomeLoss>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>46600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:NetIncomeLoss>
+  <gaap:NetIncomeLoss>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>63400000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:NetIncomeLoss>
+  <gaap:OperatingIncomeLoss>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>83000000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:OperatingIncomeLoss>
+  <gaap:OperatingIncomeLoss>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>90800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:OperatingIncomeLoss>
+  <gaap:OperatingLeasesIncomeStatementLeaseRevenue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>29100000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:OperatingLeasesIncomeStatementLeaseRevenue>
+  <gaap:OperatingLeasesIncomeStatementLeaseRevenue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>28600000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:OperatingLeasesIncomeStatementLeaseRevenue>
+  <gaap:OtherAssetsNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>104200000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:OtherAssetsNoncurrent>
+  <gaap:OtherAssetsNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>116100000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:OtherAssetsNoncurrent>
+  <gaap:OtherLiabilitiesNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>344600000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:OtherLiabilitiesNoncurrent>
+  <gaap:OtherLiabilitiesNoncurrent>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>325100000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:OtherLiabilitiesNoncurrent>
+  <gaap:PaymentsForProceedsFromOtherInvestingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-1300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:PaymentsForProceedsFromOtherInvestingActivities>
+  <gaap:PaymentsForProceedsFromOtherInvestingActivities>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-1100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:PaymentsForProceedsFromOtherInvestingActivities>
+  <gaap:PaymentsForRepurchaseOfCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2300000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:PaymentsForRepurchaseOfCommonStock>
+  <gaap:PaymentsForRepurchaseOfCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2300000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:PaymentsForRepurchaseOfCommonStock>
+  <gaap:PaymentsOfDividendsCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>8500000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:PaymentsOfDividendsCommonStock>
+  <gaap:PaymentsOfDividendsCommonStock>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>8200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:PaymentsOfDividendsCommonStock>
+  <gaap:PaymentsToAcquireProductiveAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:PaymentsToAcquireProductiveAssets>
+  <gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>31200000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+  <gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>14000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:PaymentsToAcquirePropertyPlantAndEquipment>
+  <gaap:PreferredStockParOrStatedValuePerShare>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.01</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PreferredStockParOrStatedValuePerShare>
+  <gaap:PreferredStockParOrStatedValuePerShare>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0.01</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PreferredStockParOrStatedValuePerShare>
+  <gaap:PreferredStockSharesAuthorized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>10000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PreferredStockSharesAuthorized>
+  <gaap:PreferredStockSharesAuthorized>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>10000000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PreferredStockSharesAuthorized>
+  <gaap:PreferredStockSharesIssued>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PreferredStockSharesIssued>
+  <gaap:PreferredStockSharesIssued>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PreferredStockSharesIssued>
+  <gaap:PreferredStockSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PreferredStockSharesOutstanding>
+  <gaap:PreferredStockSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PreferredStockSharesOutstanding>
+  <gaap:PreferredStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PreferredStockValue>
+  <gaap:PreferredStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>0</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PreferredStockValue>
+  <gaap:ProceedsFromLeasesHeldForInvestment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ProceedsFromLeasesHeldForInvestment>
+  <gaap:ProceedsFromLeasesHeldForInvestment>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ProceedsFromLeasesHeldForInvestment>
+  <gaap:ProceedsFromLinesOfCredit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>24700000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ProceedsFromLinesOfCredit>
+  <gaap:ProceedsFromSaleOfProductiveAssets>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>9500000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ProceedsFromSaleOfProductiveAssets>
+  <gaap:ProceedsFromStockOptionsExercised>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>200000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ProceedsFromStockOptionsExercised>
+  <gaap:ProceedsFromStockOptionsExercised>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>3200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ProceedsFromStockOptionsExercised>
+  <gaap:PropertyPlantAndEquipmentNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1014100000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:PropertyPlantAndEquipmentNet>
+  <gaap:PropertyPlantAndEquipmentNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>995700000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:PropertyPlantAndEquipmentNet>
+  <gaap:ProvisionForDoubtfulAccounts>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ProvisionForDoubtfulAccounts>
+  <gaap:ProvisionForDoubtfulAccounts>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1600000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ProvisionForDoubtfulAccounts>
+  <gaap:RepaymentsOfLinesOfCredit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>9900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:RepaymentsOfLinesOfCredit>
+  <gaap:RepaymentsOfLongTermDebt>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>16800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:RepaymentsOfLongTermDebt>
+  <gaap:RepaymentsOfLongTermDebt>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>23200000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:RepaymentsOfLongTermDebt>
+  <gaap:RestructuringSettlementAndImpairmentProvisions>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>-100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:RestructuringSettlementAndImpairmentProvisions>
+  <gaap:RetainedEarningsAccumulatedDeficit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>608000000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:RetainedEarningsAccumulatedDeficit>
+  <gaap:RetainedEarningsAccumulatedDeficit>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>663200000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:RetainedEarningsAccumulatedDeficit>
+  <gaap:Revenues>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>636900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:Revenues>
+  <gaap:Revenues>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>600000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:Revenues>
+  <gaap:SalesRevenueGoodsNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>469100000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:SalesRevenueGoodsNet>
+  <gaap:SalesRevenueGoodsNet>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>429800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:SalesRevenueGoodsNet>
+  <gaap:SellingGeneralAndAdministrativeExpense>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>129900000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:SellingGeneralAndAdministrativeExpense>
+  <gaap:SellingGeneralAndAdministrativeExpense>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>127800000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:SellingGeneralAndAdministrativeExpense>
+  <gaap:ShareBasedCompensation>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>4600000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:ShareBasedCompensation>
+  <gaap:ShareBasedCompensation>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>5000000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:ShareBasedCompensation>
+  <gaap:StockholdersEquity>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1128400000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:StockholdersEquity>
+  <gaap:StockholdersEquity>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>1198200000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:StockholdersEquity>
+  <gaap:TreasuryStockShares>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>2972738</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:TreasuryStockShares>
+  <gaap:TreasuryStockShares>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>3093631</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:TreasuryStockShares>
+  <gaap:TreasuryStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>61300000</sdmx-measure:obsValue>
+    <dc:date>2010-06-30</dc:date>
+  </gaap:TreasuryStockValue>
+  <gaap:TreasuryStockValue>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>63300000</sdmx-measure:obsValue>
+    <dc:date>2010-09-30</dc:date>
+  </gaap:TreasuryStockValue>
+  <gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>136800000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>137900000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:WeightedAverageNumberOfDilutedSharesOutstanding>
+  <gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>135000000</sdmx-measure:obsValue>
+    <ical:dtstart>2009-07-01</ical:dtstart>
+    <ical:dtend>2009-09-30</ical:dtend>
+  </gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+  <gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+    <qb:dataset rdf:resource="/id/1352801#ds"/>
+    <sdmx-measure:obsValue>136100000</sdmx-measure:obsValue>
+    <ical:dtstart>2010-07-01</ical:dtstart>
+    <ical:dtend>2010-09-30</ical:dtend>
+  </gaap:WeightedAverageNumberOfSharesOutstandingBasic>
+</rdf:RDF>

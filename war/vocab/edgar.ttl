@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gr: <http://purl.org/goodrelations/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix edgar: <http://edgarwrap.ontologycentral.com/vocab/edgar#> .
+
+edgar:filingDate a rdfs:Property .
+edgar:formType a rdfs:Property .
+
+edgar:issuer a rdfs:Property .
+edgar:issuer rdfs:range gr:BusinessEntity .
+
+edgar:segment a rdfs:Property .
+
+edgar:cikNumber a owl:inverseFunctionalProperty .
+edgar:cikNumber rdfs:subClassOf <http://s.opencalais.com/1/linkeddata/pred/cik>  , <http://dbpedia.org/property/secCik> .

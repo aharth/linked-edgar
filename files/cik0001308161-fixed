@@ -1,0 +1,37 @@
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/corp#Company> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0000029924> <http://xmlns.com/foaf/0.1/name> "DOW JONES & CO INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0000029924> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001098074> <http://xmlns.com/foaf/0.1/name> "NDS GROUP PLC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001098074> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001088244> <http://xmlns.com/foaf/0.1/name> "EUNIVERSE INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001088244> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001068002> <http://xmlns.com/foaf/0.1/name> "FOX ENTERTAINMENT GROUP INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001068002> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001258655> <http://xmlns.com/foaf/0.1/name> "NMP INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001258655> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0000788509> <http://xmlns.com/foaf/0.1/name> "NEWS CORP LTD" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0000788509> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0000881004> <http://xmlns.com/foaf/0.1/name> "NEWS PUBLISHING AUSTRALIA Ltd" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0000881004> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0000904166> <http://xmlns.com/foaf/0.1/name> "NEWS AMERICA MARKETING FSI INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0000904166> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0000908651> <http://xmlns.com/foaf/0.1/name> "NEWSCORP OVERSEAS LTD" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0000908651> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001054263> <http://xmlns.com/foaf/0.1/name> "NEWS AMERICA INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001054263> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001092713> <http://xmlns.com/foaf/0.1/name> "FEG HOLDINGS INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001092713> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001101547> <http://xmlns.com/foaf/0.1/name> "IGN ENTERTAINMENT INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001101547> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001116612> <http://xmlns.com/foaf/0.1/name> "SKY GLOBAL HOLDINGS INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001116612> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001223141> <http://xmlns.com/foaf/0.1/name> "BEST ALLIANCE PROFITS LTD" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001223141> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001224572> <http://xmlns.com/foaf/0.1/name> "CITADEL MEDIA INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001224572> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001266926> <http://xmlns.com/foaf/0.1/name> "BHC PROPERTIES INC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001266926> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001334561> <http://xmlns.com/foaf/0.1/name> "Fox Interactive Media Inc" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001334561> .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001411537> <http://xmlns.com/foaf/0.1/name> "Ruby Newco LLC" .
+<http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161> <http://www.rdfabout.com/rdf/schema/ussec/hasSubsidiary> <http://www.rdfabout.com/rdf/usgov/sec/id/cik0001411537> .

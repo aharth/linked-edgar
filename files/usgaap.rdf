@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:edgar="http://www.sec.gov/Archives/edgar" xmlns:dbpprop="http://dbpedia.org/property/" xmlns:ed="http://edgarwrap.ontologycentral.com/vocab/edgar#" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:us-gaap="http://xbrl.us/us-gaap/2009-01-31">
+  <rdf:Description rdf:about=""><dc:title>Interactive Data Filings on EDGAR using US GAAP Taxonomies</dc:title><dc:publisher>U.S. Securities and Exchange Commission</dc:publisher><dc:date>Fri, 17 Dec 2010 00:00:00 EST</dc:date></rdf:Description>
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/909832/000119312510283424/cost-20101121"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-283424</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/909832/000119312510283424/cost-20101121.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/909832"><foaf:name>COSTCO WHOLESALE CORP /NEW</foaf:name><dbpprop:secCik>909832</dbpprop:secCik><ed:cikNumber>0000909832</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1009626/000119312510283359/brcd-20101025"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-283359</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1009626/000119312510283359/brcd-20101025.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1009626"><foaf:name>BROCADE COMMUNICATIONS SYSTEMS INC</foaf:name><dbpprop:secCik>1009626</dbpprop:secCik><ed:cikNumber>0001009626</ed:cikNumber><ed:assignedSic>3577</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/711404/000119312510283357/coo-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-283357</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/711404/000119312510283357/coo-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/711404"><foaf:name>COOPER COMPANIES INC</foaf:name><dbpprop:secCik>711404</dbpprop:secCik><ed:cikNumber>0000711404</ed:cikNumber><ed:assignedSic>3851</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/72331/000095012310114569/ndsn-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-114569</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/72331/000095012310114569/ndsn-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/72331"><foaf:name>NORDSON CORP</foaf:name><dbpprop:secCik>72331</dbpprop:secCik><ed:cikNumber>0000072331</ed:cikNumber><ed:assignedSic>3569</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/40704/000095012310114560/gis-20101128"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-114560</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/40704/000095012310114560/gis-20101128.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/40704"><foaf:name>GENERAL MILLS INC</foaf:name><dbpprop:secCik>40704</dbpprop:secCik><ed:cikNumber>0000040704</ed:cikNumber><ed:assignedSic>2040</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1048911/000095012310114520/fd-20101130"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-114520</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1048911/000095012310114520/fdx-20101130.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1048911"><foaf:name>FEDEX CORP</foaf:name><dbpprop:secCik>1048911</dbpprop:secCik><ed:cikNumber>0001048911</ed:cikNumber><ed:assignedSic>4513</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/315189/000110465910063219/de-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001104659-10-063219</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/315189/000110465910063219/de-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/315189"><foaf:name>DEERE &amp; CO</foaf:name><dbpprop:secCik>315189</dbpprop:secCik><ed:cikNumber>0000315189</ed:cikNumber><ed:assignedSic>3523</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/883241/000119312510282648/snps-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-282648</ed:accessionNumber><ed:filingDate>12/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/883241/000119312510282648/snps-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/883241"><foaf:name>SYNOPSYS INC</foaf:name><dbpprop:secCik>883241</dbpprop:secCik><ed:cikNumber>0000883241</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/866787/000095012310114309/azo-20101120"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-114309</ed:accessionNumber><ed:filingDate>12/16/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/866787/000095012310114309/azo-20101120.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/866787"><foaf:name>AUTOZONE INC</foaf:name><dbpprop:secCik>866787</dbpprop:secCik><ed:cikNumber>0000866787</ed:cikNumber><ed:assignedSic>5531</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/47217/000104746910010444/hpq-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-010444</ed:accessionNumber><ed:filingDate>12/15/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/47217/000104746910010444/hpq-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/47217"><foaf:name>HEWLETT PACKARD CO</foaf:name><dbpprop:secCik>47217</dbpprop:secCik><ed:cikNumber>0000047217</ed:cikNumber><ed:assignedSic>3570</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1352341/000119312510279497/vrgy-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-279497</ed:accessionNumber><ed:filingDate>12/13/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1352341/000119312510279497/vrgy-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1352341"><foaf:name>Verigy Ltd.</foaf:name><dbpprop:secCik>1352341</dbpprop:secCik><ed:cikNumber>0001352341</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/758004/000119312510279391/nov-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-279391</ed:accessionNumber><ed:filingDate>12/13/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/758004/000119312510279391/novl-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/758004"><foaf:name>NOVELL INC</foaf:name><dbpprop:secCik>758004</dbpprop:secCik><ed:cikNumber>0000758004</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/56873/000110465910062367/kr-20101106"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-062367</ed:accessionNumber><ed:filingDate>12/13/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/56873/000110465910062367/kr-20101106.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/56873"><foaf:name>KROGER CO</foaf:name><dbpprop:secCik>56873</dbpprop:secCik><ed:cikNumber>0000056873</ed:cikNumber><ed:assignedSic>5411</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/746598/000095012310113031/brc-20101031"><ed:formType>10-Q/A</ed:formType><ed:accessionNumber>0000950123-10-113031</ed:accessionNumber><ed:filingDate>12/13/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/746598/000095012310113031/brc-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/746598"><foaf:name>BRADY CORP</foaf:name><dbpprop:secCik>746598</dbpprop:secCik><ed:cikNumber>0000746598</ed:cikNumber><ed:assignedSic>3990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/75829/000120677410002604/p-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001206774-10-002604</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/75829/000120677410002604/pll-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/75829"><foaf:name>PALL CORP</foaf:name><dbpprop:secCik>75829</dbpprop:secCik><ed:cikNumber>0000075829</ed:cikNumber><ed:assignedSic>3569</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1173752/000095012310112811/arun-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112811</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1173752/000095012310112811/arun-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1173752"><foaf:name>ARUBA NETWORKS, INC.</foaf:name><dbpprop:secCik>1173752</dbpprop:secCik><ed:cikNumber>0001173752</ed:cikNumber><ed:assignedSic>3577</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/88941/000119312510278384/stc-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-278384</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/88941/000119312510278384/smtc-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/88941"><foaf:name>SEMTECH CORP</foaf:name><dbpprop:secCik>88941</dbpprop:secCik><ed:cikNumber>0000088941</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/56679/000095012310112810/kfy-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112810</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/56679/000095012310112810/kfy-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/56679"><foaf:name>KORN FERRY INTERNATIONAL</foaf:name><dbpprop:secCik>56679</dbpprop:secCik><ed:cikNumber>0000056679</ed:cikNumber><ed:assignedSic>7361</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/91419/000095012310112807/sj-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112807</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/91419/000095012310112807/sjm-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/91419"><foaf:name>SMUCKER J M CO</foaf:name><dbpprop:secCik>91419</dbpprop:secCik><ed:cikNumber>0000091419</ed:cikNumber><ed:assignedSic>2033</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/6951/000095012310112754/aat-20101031"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-112754</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/6951/000095012310112754/amat-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/6951"><foaf:name>APPLIED MATERIALS INC /DE</foaf:name><dbpprop:secCik>6951</dbpprop:secCik><ed:cikNumber>0000006951</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/719955/000119312510278135/ws-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-278135</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/719955/000119312510278135/wsm-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/719955"><foaf:name>WILLIAMS SONOMA INC</foaf:name><dbpprop:secCik>719955</dbpprop:secCik><ed:cikNumber>0000719955</ed:cikNumber><ed:assignedSic>5700</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/922358/000110465910062050/fgp-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-062050</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/922358/000110465910062050/fgp-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/922358"><foaf:name>FERRELLGAS PARTNERS L P</foaf:name><dbpprop:secCik>922358</dbpprop:secCik><ed:cikNumber>0000922358</ed:cikNumber><ed:assignedSic>5900</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1324518/000095012310112650/wpz-20100930"><ed:formType>8-K</ed:formType><ed:accessionNumber>0000950123-10-112650</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1324518/000095012310112650/wpz-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1324518"><foaf:name>Williams Partners L.P.</foaf:name><dbpprop:secCik>1324518</dbpprop:secCik><ed:cikNumber>0001324518</ed:cikNumber><ed:assignedSic>4922</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/912615/000119312510277685/urbn-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-277685</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/912615/000119312510277685/urbn-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/912615"><foaf:name>URBAN OUTFITTERS INC</foaf:name><dbpprop:secCik>912615</dbpprop:secCik><ed:cikNumber>0000912615</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/91388/000009138810000049/sfd-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000091388-10-000049</ed:accessionNumber><ed:filingDate>12/10/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/91388/000009138810000049/sfd-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/91388"><foaf:name>SMITHFIELD FOODS INC</foaf:name><dbpprop:secCik>91388</dbpprop:secCik><ed:cikNumber>0000091388</ed:cikNumber><ed:assignedSic>2011</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/717724/000114420410065649/dbrn-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001144204-10-065649</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/717724/000114420410065649/dbrn-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/717724"><foaf:name>DRESS BARN INC</foaf:name><dbpprop:secCik>717724</dbpprop:secCik><ed:cikNumber>0000717724</ed:cikNumber><ed:assignedSic>5621</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/726958/000119312510277524/casy-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-277524</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/726958/000119312510277524/casy-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/726958"><foaf:name>CASEYS GENERAL STORES INC</foaf:name><dbpprop:secCik>726958</dbpprop:secCik><ed:cikNumber>0000726958</ed:cikNumber><ed:assignedSic>5500</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/884217/000095012310112457/w-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112457</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/884217/000095012310112457/mw-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/884217"><foaf:name>MENS WEARHOUSE INC</foaf:name><dbpprop:secCik>884217</dbpprop:secCik><ed:cikNumber>0000884217</ed:cikNumber><ed:assignedSic>5600</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1020859/000110465910061942/unfi-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-061942</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1020859/000110465910061942/unfi-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1020859"><foaf:name>UNITED NATURAL FOODS INC</foaf:name><dbpprop:secCik>1020859</dbpprop:secCik><ed:cikNumber>0001020859</ed:cikNumber><ed:assignedSic>5141</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/891024/000119312510277498/pdco-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-277498</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/891024/000119312510277498/pdco-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/891024"><foaf:name>PATTERSON COMPANIES, INC.</foaf:name><dbpprop:secCik>891024</dbpprop:secCik><ed:cikNumber>0000891024</ed:cikNumber><ed:assignedSic>5047</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/909954/000119312510277481/gcr-20100925"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-277481</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/909954/000119312510277481/gmcr-20100925.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/909954"><foaf:name>GREEN MOUNTAIN COFFEE ROASTERS INC</foaf:name><dbpprop:secCik>909954</dbpprop:secCik><ed:cikNumber>0000909954</ed:cikNumber><ed:assignedSic>2090</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/78239/000007823910000085/pvh-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000078239-10-000085</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/78239/000007823910000085/pvh-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/78239"><foaf:name>PHILLIPS VAN HEUSEN CORP /DE/</foaf:name><dbpprop:secCik>78239</dbpprop:secCik><ed:cikNumber>0000078239</ed:cikNumber><ed:assignedSic>2320</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/890491/000119312510277471/bks-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-277471</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/890491/000119312510277471/bks-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/890491"><foaf:name>BARNES &amp; NOBLE INC</foaf:name><dbpprop:secCik>890491</dbpprop:secCik><ed:cikNumber>0000890491</ed:cikNumber><ed:assignedSic>5940</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1172724/000119312510277447/gfi-20100630"><ed:formType>20-F/A</ed:formType><ed:accessionNumber>0001193125-10-277447</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1172724/000119312510277447/gfi-20100630.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1172724"><foaf:name>GOLD FIELDS LTD</foaf:name><dbpprop:secCik>1172724</dbpprop:secCik><ed:cikNumber>0001172724</ed:cikNumber><ed:assignedSic>1040</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1062579/000095012310112410/do-20100930"><ed:formType>20-F/A</ed:formType><ed:accessionNumber>0000950123-10-112410</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1062579/000095012310112410/dox-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1062579"><foaf:name>AMDOCS LTD</foaf:name><dbpprop:secCik>1062579</dbpprop:secCik><ed:cikNumber>0001062579</ed:cikNumber><ed:assignedSic>7371</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/107140/000010714010000054/jwa-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000107140-10-000054</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/107140/000010714010000054/jwa-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/107140"><foaf:name>WILEY JOHN &amp; SONS, INC.</foaf:name><dbpprop:secCik>107140</dbpprop:secCik><ed:cikNumber>0000107140</ed:cikNumber><ed:assignedSic>2731</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/14693/000001469310000134/bfa-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000014693-10-000134</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/14693/000001469310000134/bfa-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/14693"><foaf:name>BROWN FORMAN CORP</foaf:name><dbpprop:secCik>14693</dbpprop:secCik><ed:cikNumber>0000014693</ed:cikNumber><ed:assignedSic>2080</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/885639/000119312510277331/kss-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-277331</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/885639/000119312510277331/kss-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/885639"><foaf:name>KOHLS CORPORATION</foaf:name><dbpprop:secCik>885639</dbpprop:secCik><ed:cikNumber>0000885639</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/885245/000115752310007241/bke-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001157523-10-007241</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/885245/000115752310007241/bke-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/885245"><foaf:name>BUCKLE INC</foaf:name><dbpprop:secCik>885245</dbpprop:secCik><ed:cikNumber>0000885245</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1397187/000095012310112239/uu-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112239</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1397187/000095012310112239/lulu-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1397187"><foaf:name>lululemon athletica inc.</foaf:name><dbpprop:secCik>1397187</dbpprop:secCik><ed:cikNumber>0001397187</ed:cikNumber><ed:assignedSic>2300</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/16732/000095012310112236/cpb-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112236</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/16732/000095012310112236/cpb-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/16732"><foaf:name>CAMPBELL SOUP CO</foaf:name><dbpprop:secCik>16732</dbpprop:secCik><ed:cikNumber>0000016732</ed:cikNumber><ed:assignedSic>2000</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1336920/000119312510276912/sai-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-276912</ed:accessionNumber><ed:filingDate>12/09/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1336920/000119312510276912/sai-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1336920"><foaf:name>SAIC, Inc.</foaf:name><dbpprop:secCik>1336920</dbpprop:secCik><ed:cikNumber>0001336920</ed:cikNumber><ed:assignedSic>7373</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/745732/000120677410002589/rost-20101030"><ed:formType>10-Q/A</ed:formType><ed:accessionNumber>0001206774-10-002589</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/745732/000120677410002589/rost-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/745732"><foaf:name>ROSS STORES INC</foaf:name><dbpprop:secCik>745732</dbpprop:secCik><ed:cikNumber>0000745732</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/850209/000114420410065433/f-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001144204-10-065433</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/850209/000114420410065433/fl-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/850209"><foaf:name>FOOT LOCKER INC</foaf:name><dbpprop:secCik>850209</dbpprop:secCik><ed:cikNumber>0000850209</ed:cikNumber><ed:assignedSic>5661</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/33769/000095012310112046/bobe-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112046</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/33769/000095012310112046/bobe-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/33769"><foaf:name>EVANS BOB FARMS INC</foaf:name><dbpprop:secCik>33769</dbpprop:secCik><ed:cikNumber>0000033769</ed:cikNumber><ed:assignedSic>5812</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1326380/000095012310112044/ge-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112044</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1326380/000095012310112044/gme-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1326380"><foaf:name>GameStop Corp.</foaf:name><dbpprop:secCik>1326380</dbpprop:secCik><ed:cikNumber>0001326380</ed:cikNumber><ed:assignedSic>5734</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/38067/000095012310112040/fce-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-112040</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/38067/000095012310112040/fce-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/38067"><foaf:name>FOREST CITY ENTERPRISES INC</foaf:name><dbpprop:secCik>38067</dbpprop:secCik><ed:cikNumber>0000038067</ed:cikNumber><ed:assignedSic>6512</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1166126/000116612610000055/jcp-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001166126-10-000055</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1166126/000116612610000055/jcp-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1166126"><foaf:name>J C PENNEY CO INC</foaf:name><dbpprop:secCik>1166126</dbpprop:secCik><ed:cikNumber>0001166126</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/768835/000114036110048808/big-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001140361-10-048808</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/768835/000114036110048808/big-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/768835"><foaf:name>BIG LOTS INC</foaf:name><dbpprop:secCik>768835</dbpprop:secCik><ed:cikNumber>0000768835</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/23197/000002319710000064/ct-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000023197-10-000064</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/23197/000002319710000064/cmtl-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/23197"><foaf:name>COMTECH TELECOMMUNICATIONS CORP /DE/</foaf:name><dbpprop:secCik>23197</dbpprop:secCik><ed:cikNumber>0000023197</ed:cikNumber><ed:assignedSic>3663</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1168213/000116821310000075/aro-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001168213-10-000075</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1168213/000116821310000075/aro-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1168213"><foaf:name>AEROPOSTALE INC</foaf:name><dbpprop:secCik>1168213</dbpprop:secCik><ed:cikNumber>0001168213</ed:cikNumber><ed:assignedSic>5600</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/64670/000089710110002408/dt-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000897101-10-002408</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/64670/000089710110002408/mdt-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/64670"><foaf:name>MEDTRONIC INC</foaf:name><dbpprop:secCik>64670</dbpprop:secCik><ed:cikNumber>0000064670</ed:cikNumber><ed:assignedSic>3845</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/72333/000119312510276629/jwn-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-276629</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/72333/000119312510276629/jwn-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/72333"><foaf:name>NORDSTROM INC</foaf:name><dbpprop:secCik>72333</dbpprop:secCik><ed:cikNumber>0000072333</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/29644/000089710110002407/dci-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000897101-10-002407</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/29644/000089710110002407/dci-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/29644"><foaf:name>DONALDSON CO INC</foaf:name><dbpprop:secCik>29644</dbpprop:secCik><ed:cikNumber>0000029644</ed:cikNumber><ed:assignedSic>3564</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/39911/000119312510276610/gps-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-276610</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/39911/000119312510276610/gps-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/39911"><foaf:name>GAP INC</foaf:name><dbpprop:secCik>39911</dbpprop:secCik><ed:cikNumber>0000039911</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/12659/000095012310111972/hrb-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-111972</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/12659/000095012310111972/hrb-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/12659"><foaf:name>H&amp;R BLOCK INC</foaf:name><dbpprop:secCik>12659</dbpprop:secCik><ed:cikNumber>0000012659</ed:cikNumber><ed:assignedSic>7200</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/745732/000120677410002571/rost-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001206774-10-002571</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/745732/000120677410002571/rost-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/745732"><foaf:name>ROSS STORES INC</foaf:name><dbpprop:secCik>745732</dbpprop:secCik><ed:cikNumber>0000745732</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1077688/000118518510001425/hoft-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001185185-10-001425</ed:accessionNumber><ed:filingDate>12/08/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1077688/000118518510001425/hoft-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1077688"><foaf:name>HOOKER FURNITURE CORP</foaf:name><dbpprop:secCik>1077688</dbpprop:secCik><ed:cikNumber>0001077688</ed:cikNumber><ed:assignedSic>2510</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/769397/000119312510275686/adsk-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-275686</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/769397/000119312510275686/adsk-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/769397"><foaf:name>AUTODESK INC</foaf:name><dbpprop:secCik>769397</dbpprop:secCik><ed:cikNumber>0000769397</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/866873/000119312510275667/d-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-275667</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/866873/000119312510275667/dlm-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/866873"><foaf:name>DEL MONTE FOODS CO</foaf:name><dbpprop:secCik>866873</dbpprop:secCik><ed:cikNumber>0000866873</ed:cikNumber><ed:assignedSic>2033</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1045810/000104581010000045/nvda-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001045810-10-000045</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1045810/000104581010000045/nvda-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1045810"><foaf:name>NVIDIA CORP</foaf:name><dbpprop:secCik>1045810</dbpprop:secCik><ed:cikNumber>0001045810</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/912463/000110465910061566/ges-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-061566</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/912463/000110465910061566/ges-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/912463"><foaf:name>GUESS INC</foaf:name><dbpprop:secCik>912463</dbpprop:secCik><ed:cikNumber>0000912463</ed:cikNumber><ed:assignedSic>2340</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1088825/000108882510000115/tivo-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001088825-10-000115</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1088825/000108882510000115/tivo-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1088825"><foaf:name>TIVO INC</foaf:name><dbpprop:secCik>1088825</dbpprop:secCik><ed:cikNumber>0001088825</ed:cikNumber><ed:assignedSic>4841</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1018840/000095012310111536/anf-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-111536</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1018840/000095012310111536/anf-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1018840"><foaf:name>ABERCROMBIE &amp; FITCH CO /DE/</foaf:name><dbpprop:secCik>1018840</dbpprop:secCik><ed:cikNumber>0001018840</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/746598/000095012310111495/brc-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-111495</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/746598/000095012310111495/brc-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/746598"><foaf:name>BRADY CORP</foaf:name><dbpprop:secCik>746598</dbpprop:secCik><ed:cikNumber>0000746598</ed:cikNumber><ed:assignedSic>3990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/701811/000119312510275417/ent-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-275417</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/701811/000119312510275417/ment-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/701811"><foaf:name>MENTOR GRAPHICS CORP</foaf:name><dbpprop:secCik>701811</dbpprop:secCik><ed:cikNumber>0000701811</ed:cikNumber><ed:assignedSic>7373</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/812011/000119312510275087/tn-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-275087</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/812011/000119312510275087/mtn-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/812011"><foaf:name>VAIL RESORTS INC</foaf:name><dbpprop:secCik>812011</dbpprop:secCik><ed:cikNumber>0000812011</ed:cikNumber><ed:assignedSic>7990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1051251/000119312510275079/jcg-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-275079</ed:accessionNumber><ed:filingDate>12/07/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1051251/000119312510275079/jcg-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1051251"><foaf:name>J CREW GROUP INC</foaf:name><dbpprop:secCik>1051251</dbpprop:secCik><ed:cikNumber>0001051251</ed:cikNumber><ed:assignedSic>5600</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1002047/000119312510274568/ntap-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-274568</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1002047/000119312510274568/ntap-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1002047"><foaf:name>NetApp, Inc.</foaf:name><dbpprop:secCik>1002047</dbpprop:secCik><ed:cikNumber>0001002047</ed:cikNumber><ed:assignedSic>3572</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1017480/000101748010000037/hibb-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001017480-10-000037</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1017480/000101748010000037/hibb-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1017480"><foaf:name>HIBBETT SPORTS INC</foaf:name><dbpprop:secCik>1017480</dbpprop:secCik><ed:cikNumber>0001017480</ed:cikNumber><ed:assignedSic>5940</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/896878/000095012310111135/intu-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-111135</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/896878/000095012310111135/intu-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/896878"><foaf:name>INTUIT INC</foaf:name><dbpprop:secCik>896878</dbpprop:secCik><ed:cikNumber>0000896878</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/794367/000119312510274286/-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-274286</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/794367/000119312510274286/m-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/794367"><foaf:name>Macy's, Inc.</foaf:name><dbpprop:secCik>794367</dbpprop:secCik><ed:cikNumber>0000794367</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1067294/000114036110048253/cbr-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001140361-10-048253</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1067294/000114036110048253/cbrl-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1067294"><foaf:name>CRACKER BARREL OLD COUNTRY STORE, INC</foaf:name><dbpprop:secCik>1067294</dbpprop:secCik><ed:cikNumber>0001067294</ed:cikNumber><ed:assignedSic>5812</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/104169/000119312510274171/wt-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-274171</ed:accessionNumber><ed:filingDate>12/06/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/104169/000119312510274171/wmt-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/104169"><foaf:name>WAL MART STORES INC</foaf:name><dbpprop:secCik>104169</dbpprop:secCik><ed:cikNumber>0000104169</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1124827/000095012310110877/utiw-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-110877</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1124827/000095012310110877/utiw-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1124827"><foaf:name>UTi WORLDWIDE INC</foaf:name><dbpprop:secCik>1124827</dbpprop:secCik><ed:cikNumber>0001124827</ed:cikNumber><ed:assignedSic>4731</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/900075/000114544310002795/cprt-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001145443-10-002795</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/900075/000114544310002795/cprt-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/900075"><foaf:name>COPART INC</foaf:name><dbpprop:secCik>900075</dbpprop:secCik><ed:cikNumber>0000900075</ed:cikNumber><ed:assignedSic>5500</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/790051/000110465910061105/cs-20100630"><ed:formType>8-K</ed:formType><ed:accessionNumber>0001104659-10-061105</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/790051/000110465910061105/csl-20100630.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/790051"><foaf:name>CARLISLE COMPANIES INC</foaf:name><dbpprop:secCik>790051</dbpprop:secCik><ed:cikNumber>0000790051</ed:cikNumber><ed:assignedSic>3060</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/701985/000119312510273759/td-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-273759</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/701985/000119312510273759/ltd-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/701985"><foaf:name>LIMITED BRANDS INC</foaf:name><dbpprop:secCik>701985</dbpprop:secCik><ed:cikNumber>0000701985</ed:cikNumber><ed:assignedSic>5621</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/28917/000110465910061077/dds-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-061077</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/28917/000110465910061077/dds-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/28917"><foaf:name>DILLARDS INC</foaf:name><dbpprop:secCik>28917</dbpprop:secCik><ed:cikNumber>0000028917</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/27419/000110465910061015/tgt-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-061015</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/27419/000110465910061015/tgt-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/27419"><foaf:name>TARGET CORP</foaf:name><dbpprop:secCik>27419</dbpprop:secCik><ed:cikNumber>0000027419</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/713002/000095012310110548/fow-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-110548</ed:accessionNumber><ed:filingDate>12/03/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/713002/000095012310110548/flow-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/713002"><foaf:name>FLOW INTERNATIONAL CORP</foaf:name><dbpprop:secCik>713002</dbpprop:secCik><ed:cikNumber>0000713002</ed:cikNumber><ed:assignedSic>3569</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1041859/000110465910060932/pce-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-060932</ed:accessionNumber><ed:filingDate>12/02/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1041859/000110465910060932/plce-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1041859"><foaf:name>CHILDRENS PLACE RETAIL STORES INC</foaf:name><dbpprop:secCik>1041859</dbpprop:secCik><ed:cikNumber>0001041859</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/826083/000095012310110442/de-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-110442</ed:accessionNumber><ed:filingDate>12/02/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/826083/000095012310110442/dell-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/826083"><foaf:name>DELL INC</foaf:name><dbpprop:secCik>826083</dbpprop:secCik><ed:cikNumber>0000826083</ed:cikNumber><ed:assignedSic>3571</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/354950/000119312510272940/hd-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-272940</ed:accessionNumber><ed:filingDate>12/02/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/354950/000119312510272940/hd-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/354950"><foaf:name>HOME DEPOT INC</foaf:name><dbpprop:secCik>354950</dbpprop:secCik><ed:cikNumber>0000354950</ed:cikNumber><ed:assignedSic>5211</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1060232/000095012310110300/pss-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-110300</ed:accessionNumber><ed:filingDate>12/02/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1060232/000095012310110300/pss-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1060232"><foaf:name>COLLECTIVE BRANDS, INC.</foaf:name><dbpprop:secCik>1060232</dbpprop:secCik><ed:cikNumber>0001060232</ed:cikNumber><ed:assignedSic>5661</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1070750/000119312510272371/hst-20100602"><ed:formType>8-K</ed:formType><ed:accessionNumber>0001193125-10-272371</ed:accessionNumber><ed:filingDate>12/02/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1070750/000119312510272371/hst-20100602.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1070750"><foaf:name>HOST HOTELS &amp; RESORTS, INC.</foaf:name><dbpprop:secCik>1070750</dbpprop:secCik><ed:cikNumber>0001070750</ed:cikNumber><ed:assignedSic>6798</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/85704/000114544310002753/rdk-20101003"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001145443-10-002753</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/85704/000114544310002753/rdk-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/85704"><foaf:name>RUDDICK CORP</foaf:name><dbpprop:secCik>85704</dbpprop:secCik><ed:cikNumber>0000085704</ed:cikNumber><ed:assignedSic>5411</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/67887/000095012310110062/oga-20101002"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-110062</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/67887/000095012310110062/moga-20101002.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/67887"><foaf:name>MOOG INC</foaf:name><dbpprop:secCik>67887</dbpprop:secCik><ed:cikNumber>0000067887</ed:cikNumber><ed:assignedSic>3590</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/790703/000119312510272202/tecd-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-272202</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/790703/000119312510272202/tecd-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/790703"><foaf:name>TECH DATA CORP</foaf:name><dbpprop:secCik>790703</dbpprop:secCik><ed:cikNumber>0000790703</ed:cikNumber><ed:assignedSic>5045</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/98246/000095012310110017/tif-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-110017</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/98246/000095012310110017/tif-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/98246"><foaf:name>TIFFANY &amp; CO</foaf:name><dbpprop:secCik>98246</dbpprop:secCik><ed:cikNumber>0000098246</ed:cikNumber><ed:assignedSic>5944</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/60667/000006066710000184/ow-20101029"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000060667-10-000184</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/60667/000006066710000184/low-20101029.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/60667"><foaf:name>LOWES COMPANIES INC</foaf:name><dbpprop:secCik>60667</dbpprop:secCik><ed:cikNumber>0000060667</ed:cikNumber><ed:assignedSic>5211</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/19353/000001935310000063/chrs-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000019353-10-000063</ed:accessionNumber><ed:filingDate>12/01/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/19353/000001935310000063/chrs-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/19353"><foaf:name>CHARMING SHOPPES INC</foaf:name><dbpprop:secCik>19353</dbpprop:secCik><ed:cikNumber>0000019353</ed:cikNumber><ed:assignedSic>5621</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/812900/000119312510270834/sks-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-270834</ed:accessionNumber><ed:filingDate>11/30/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/812900/000119312510270834/sks-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/812900"><foaf:name>SAKS INC</foaf:name><dbpprop:secCik>812900</dbpprop:secCik><ed:cikNumber>0000812900</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/832988/000119312510270721/sig-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-270721</ed:accessionNumber><ed:filingDate>11/30/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/832988/000119312510270721/sig-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/832988"><foaf:name>SIGNET JEWELERS LTD</foaf:name><dbpprop:secCik>832988</dbpprop:secCik><ed:cikNumber>0000832988</ed:cikNumber><ed:assignedSic>5944</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/730263/000095012310109462/tho-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-109462</ed:accessionNumber><ed:filingDate>11/30/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/730263/000095012310109462/tho-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/730263"><foaf:name>THOR INDUSTRIES INC</foaf:name><dbpprop:secCik>730263</dbpprop:secCik><ed:cikNumber>0000730263</ed:cikNumber><ed:assignedSic>3716</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/314808/000031480810000170/esv-20100630"><ed:formType>8-K</ed:formType><ed:accessionNumber>0000314808-10-000170</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/314808/000031480810000170/esv-20100630.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/314808"><foaf:name>Ensco plc</foaf:name><dbpprop:secCik>314808</dbpprop:secCik><ed:cikNumber>0000314808</ed:cikNumber><ed:assignedSic>1381</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/4127/000095012310109435/swks-20101001"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-109435</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/4127/000095012310109435/swks-20101001.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/4127"><foaf:name>SKYWORKS SOLUTIONS INC</foaf:name><dbpprop:secCik>4127</dbpprop:secCik><ed:cikNumber>0000004127</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/314808/000031480810000167/esv-20100331"><ed:formType>8-K</ed:formType><ed:accessionNumber>0000314808-10-000167</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/314808/000031480810000167/esv-20100331.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/314808"><foaf:name>Ensco plc</foaf:name><dbpprop:secCik>314808</dbpprop:secCik><ed:cikNumber>0000314808</ed:cikNumber><ed:assignedSic>1381</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/314808/000031480810000165/esv-20091231"><ed:formType>8-K</ed:formType><ed:accessionNumber>0000314808-10-000165</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/314808/000031480810000165/esv-20091231.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/314808"><foaf:name>Ensco plc</foaf:name><dbpprop:secCik>314808</dbpprop:secCik><ed:cikNumber>0000314808</ed:cikNumber><ed:assignedSic>1381</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1002517/000095012310109408/nuan-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-109408</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1002517/000095012310109408/nuan-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1002517"><foaf:name>Nuance Communications, Inc.</foaf:name><dbpprop:secCik>1002517</dbpprop:secCik><ed:cikNumber>0001002517</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1029506/000095012310109405/rah-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-109405</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1029506/000095012310109405/rah-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1029506"><foaf:name>RALCORP HOLDINGS INC /MO</foaf:name><dbpprop:secCik>1029506</dbpprop:secCik><ed:cikNumber>0001029506</ed:cikNumber><ed:assignedSic>2040</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/16040/000119312510270199/cbt-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-270199</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/16040/000119312510270199/cbt-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/16040"><foaf:name>CABOT CORP</foaf:name><dbpprop:secCik>16040</dbpprop:secCik><ed:cikNumber>0000016040</ed:cikNumber><ed:assignedSic>2890</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1095600/000119312510270173/bcsi-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-270173</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1095600/000119312510270173/bcsi-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1095600"><foaf:name>BLUE COAT SYSTEMS INC</foaf:name><dbpprop:secCik>1095600</dbpprop:secCik><ed:cikNumber>0001095600</ed:cikNumber><ed:assignedSic>3572</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/866706/000095012310109256/ese-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-109256</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/866706/000095012310109256/ese-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/866706"><foaf:name>ESCO TECHNOLOGIES INC</foaf:name><dbpprop:secCik>866706</dbpprop:secCik><ed:cikNumber>0000866706</ed:cikNumber><ed:assignedSic>3669</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/794172/000095012310109251/vivo-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-109251</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/794172/000095012310109251/vivo-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/794172"><foaf:name>MERIDIAN BIOSCIENCE INC</foaf:name><dbpprop:secCik>794172</dbpprop:secCik><ed:cikNumber>0000794172</ed:cikNumber><ed:assignedSic>2835</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1332174/000119312510270050/gsg-20100930"><ed:formType>POS AM</ed:formType><ed:accessionNumber>0001193125-10-270050</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1332174/000119312510270050/gsg-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1332174"><foaf:name>iShares S&amp;P GSCI Commodity-Indexed Trust</foaf:name><dbpprop:secCik>1332174</dbpprop:secCik><ed:cikNumber>0001332174</ed:cikNumber><ed:assignedSic>6799</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1136352/000119312510270046/nrgy-20100930"><ed:formType>8-K</ed:formType><ed:accessionNumber>0001193125-10-270046</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1136352/000119312510270046/nrgy-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1136352"><foaf:name>INERGY L P</foaf:name><dbpprop:secCik>1136352</dbpprop:secCik><ed:cikNumber>0001136352</ed:cikNumber><ed:assignedSic>5960</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1136352/000119312510270033/nrgy-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-270033</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1136352/000119312510270033/nrgy-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1136352"><foaf:name>INERGY L P</foaf:name><dbpprop:secCik>1136352</dbpprop:secCik><ed:cikNumber>0001136352</ed:cikNumber><ed:assignedSic>5960</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1074433/000107443310000074/cffn-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001074433-10-000074</ed:accessionNumber><ed:filingDate>11/29/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1074433/000107443310000074/cffn-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1074433"><foaf:name>CAPITOL FEDERAL FINANCIAL</foaf:name><dbpprop:secCik>1074433</dbpprop:secCik><ed:cikNumber>0001074433</ed:cikNumber><ed:assignedSic>6035</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/104819/000095012310108829/wg-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108829</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/104819/000095012310108829/wgl-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/104819"><foaf:name>WASHINGTON GAS LIGHT CO</foaf:name><dbpprop:secCik>104819</dbpprop:secCik><ed:cikNumber>0000104819</ed:cikNumber><ed:assignedSic>4924</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1001039/000119312510268910/dis-20101002"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-268910</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1001039/000119312510268910/dis-20101002.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1001039"><foaf:name>WALT DISNEY CO/</foaf:name><dbpprop:secCik>1001039</dbpprop:secCik><ed:cikNumber>0001001039</ed:cikNumber><ed:assignedSic>7990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/825542/000095012310108803/sg-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108803</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/825542/000095012310108803/smg-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/825542"><foaf:name>SCOTTS MIRACLE-GRO CO</foaf:name><dbpprop:secCik>825542</dbpprop:secCik><ed:cikNumber>0000825542</ed:cikNumber><ed:assignedSic>2870</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1108524/000119312510268895/cr-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-268895</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1108524/000119312510268895/crm-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1108524"><foaf:name>SALESFORCE COM INC</foaf:name><dbpprop:secCik>1108524</dbpprop:secCik><ed:cikNumber>0001108524</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/10795/000095012310108757/bd-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108757</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/10795/000095012310108757/bdx-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/10795"><foaf:name>BECTON DICKINSON &amp; CO</foaf:name><dbpprop:secCik>10795</dbpprop:secCik><ed:cikNumber>0000010795</ed:cikNumber><ed:assignedSic>3841</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1381668/000119312510268786/tfs-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-268786</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1381668/000119312510268786/tfsl-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1381668"><foaf:name>TFS Financial CORP</foaf:name><dbpprop:secCik>1381668</dbpprop:secCik><ed:cikNumber>0001381668</ed:cikNumber><ed:assignedSic>6035</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/356309/000035630910000025/njr-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000356309-10-000025</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/356309/000035630910000025/njr-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/356309"><foaf:name>NEW JERSEY RESOURCES CORP</foaf:name><dbpprop:secCik>356309</dbpprop:secCik><ed:cikNumber>0000356309</ed:cikNumber><ed:assignedSic>4924</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1119639/000129281410003571/pbra-20100930"><ed:formType>6-K/A</ed:formType><ed:accessionNumber>0001292814-10-003571</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1119639/000129281410003571/pbra-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1119639"><foaf:name>PETROBRAS - PETROLEO BRASILEIRO SA</foaf:name><dbpprop:secCik>1119639</dbpprop:secCik><ed:cikNumber>0001119639</ed:cikNumber><ed:assignedSic>1311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/720005/000072000510000081/rjf-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000720005-10-000081</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/720005/000072000510000081/rjf-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/720005"><foaf:name>RAYMOND JAMES FINANCIAL INC</foaf:name><dbpprop:secCik>720005</dbpprop:secCik><ed:cikNumber>0000720005</ed:cikNumber><ed:assignedSic>6211</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/70145/000095012310108604/nfg-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108604</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/70145/000095012310108604/nfg-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/70145"><foaf:name>NATIONAL FUEL GAS CO</foaf:name><dbpprop:secCik>70145</dbpprop:secCik><ed:cikNumber>0000070145</ed:cikNumber><ed:assignedSic>4924</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/46765/000104746910010040/hp-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-010040</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/46765/000104746910010040/hp-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/46765"><foaf:name>HELMERICH &amp; PAYNE INC</foaf:name><dbpprop:secCik>46765</dbpprop:secCik><ed:cikNumber>0000046765</ed:cikNumber><ed:assignedSic>1381</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/897429/000095012310108594/chs-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-108594</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/897429/000095012310108594/chs-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/897429"><foaf:name>CHICOS FAS INC</foaf:name><dbpprop:secCik>897429</dbpprop:secCik><ed:cikNumber>0000897429</ed:cikNumber><ed:assignedSic>5621</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1037461/000119312510268483/bj-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-268483</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1037461/000119312510268483/bj-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1037461"><foaf:name>BJS WHOLESALE CLUB INC</foaf:name><dbpprop:secCik>1037461</dbpprop:secCik><ed:cikNumber>0001037461</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/863157/000095012310108528/pet-20101031"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-108528</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/863157/000095012310108528/petm-20101031.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/863157"><foaf:name>PETSMART INC</foaf:name><dbpprop:secCik>863157</dbpprop:secCik><ed:cikNumber>0000863157</ed:cikNumber><ed:assignedSic>5990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/109198/000095012310108499/tj-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-108499</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/109198/000095012310108499/tjx-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/109198"><foaf:name>TJX COMPANIES INC /DE/</foaf:name><dbpprop:secCik>109198</dbpprop:secCik><ed:cikNumber>0000109198</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/865436/000110465910059917/wfi-20100926"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001104659-10-059917</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/865436/000110465910059917/wfmi-20100926.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/865436"><foaf:name>WHOLE FOODS MARKET INC</foaf:name><dbpprop:secCik>865436</dbpprop:secCik><ed:cikNumber>0000865436</ed:cikNumber><ed:assignedSic>5411</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1005210/000095012310108484/sph-20100925"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108484</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1005210/000095012310108484/sph-20100925.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1005210"><foaf:name>SUBURBAN PROPANE PARTNERS LP</foaf:name><dbpprop:secCik>1005210</dbpprop:secCik><ed:cikNumber>0001005210</ed:cikNumber><ed:assignedSic>5900</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/859737/000119312510268147/ho-20100925"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-268147</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/859737/000119312510268147/holx-20100925.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/859737"><foaf:name>HOLOGIC INC</foaf:name><dbpprop:secCik>859737</dbpprop:secCik><ed:cikNumber>0000859737</ed:cikNumber><ed:assignedSic>3844</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/807882/000095012310108451/jack-20101003"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108451</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/807882/000095012310108451/jack-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/807882"><foaf:name>JACK IN THE BOX INC /NEW/</foaf:name><dbpprop:secCik>807882</dbpprop:secCik><ed:cikNumber>0000807882</ed:cikNumber><ed:assignedSic>5812</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/319201/000119312510267778/kac-20100930"><ed:formType>10-Q/A</ed:formType><ed:accessionNumber>0001193125-10-267778</ed:accessionNumber><ed:filingDate>11/24/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/319201/000119312510267778/klac-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/319201"><foaf:name>KLA TENCOR CORP</foaf:name><dbpprop:secCik>319201</dbpprop:secCik><ed:cikNumber>0000319201</ed:cikNumber><ed:assignedSic>3827</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/203527/000119312510267742/var-20101001"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267742</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/203527/000119312510267742/var-20101001.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/203527"><foaf:name>VARIAN MEDICAL SYSTEMS INC</foaf:name><dbpprop:secCik>203527</dbpprop:secCik><ed:cikNumber>0000203527</ed:cikNumber><ed:assignedSic>3845</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/8411/000114036110047001/atw-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001140361-10-047001</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/8411/000114036110047001/atw-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/8411"><foaf:name>ATWOOD OCEANICS INC</foaf:name><dbpprop:secCik>8411</dbpprop:secCik><ed:cikNumber>0000008411</ed:cikNumber><ed:assignedSic>1381</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/32604/000114420410063258/er-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001144204-10-063258</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/32604/000114420410063258/emr-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/32604"><foaf:name>EMERSON ELECTRIC CO</foaf:name><dbpprop:secCik>32604</dbpprop:secCik><ed:cikNumber>0000032604</ed:cikNumber><ed:assignedSic>3600</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/814547/000095012310108284/fico-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108284</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/814547/000095012310108284/fico-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/814547"><foaf:name>FAIR ISAAC CORP</foaf:name><dbpprop:secCik>814547</dbpprop:secCik><ed:cikNumber>0000814547</ed:cikNumber><ed:assignedSic>7389</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1096752/000120677410002425/enr-20101122"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001206774-10-002425</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1096752/000120677410002425/enr-20101122.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1096752"><foaf:name>ENERGIZER HOLDINGS INC</foaf:name><dbpprop:secCik>1096752</dbpprop:secCik><ed:cikNumber>0001096752</ed:cikNumber><ed:assignedSic>3690</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1084755/000119312510267652/arba-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267652</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1084755/000119312510267652/arba-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1084755"><foaf:name>ARIBA INC</foaf:name><dbpprop:secCik>1084755</dbpprop:secCik><ed:cikNumber>0001084755</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1089063/000095012310108261/dks-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-108261</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1089063/000095012310108261/dks-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1089063"><foaf:name>DICKS SPORTING GOODS INC</foaf:name><dbpprop:secCik>1089063</dbpprop:secCik><ed:cikNumber>0001089063</ed:cikNumber><ed:assignedSic>5940</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1368457/000119312510267609/acv-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267609</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1368457/000119312510267609/acv-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1368457"><foaf:name>Alberto-Culver CO</foaf:name><dbpprop:secCik>1368457</dbpprop:secCik><ed:cikNumber>0001368457</ed:cikNumber><ed:assignedSic>2844</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1137411/000104746910010012/co-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-010012</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1137411/000104746910010012/col-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1137411"><foaf:name>ROCKWELL COLLINS INC</foaf:name><dbpprop:secCik>1137411</dbpprop:secCik><ed:cikNumber>0001137411</ed:cikNumber><ed:assignedSic>3728</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1058057/000119312510267436/rv-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-267436</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1058057/000119312510267436/mrvl-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1058057"><foaf:name>MARVELL TECHNOLOGY GROUP LTD</foaf:name><dbpprop:secCik>1058057</dbpprop:secCik><ed:cikNumber>0001058057</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/52988/000119312510267422/jec-20101001"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267422</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/52988/000119312510267422/jec-20101001.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/52988"><foaf:name>JACOBS ENGINEERING GROUP INC /DE/</foaf:name><dbpprop:secCik>52988</dbpprop:secCik><ed:cikNumber>0000052988</ed:cikNumber><ed:assignedSic>1600</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1140859/000095012310108165/abc-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108165</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1140859/000095012310108165/abc-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1140859"><foaf:name>AMERISOURCEBERGEN CORP</foaf:name><dbpprop:secCik>1140859</dbpprop:secCik><ed:cikNumber>0001140859</ed:cikNumber><ed:assignedSic>5122</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1417398/000095012310108162/hi-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108162</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1417398/000095012310108162/hi-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1417398"><foaf:name>Hillenbrand, Inc.</foaf:name><dbpprop:secCik>1417398</dbpprop:secCik><ed:cikNumber>0001417398</ed:cikNumber><ed:assignedSic>3990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/857005/000119312510267323/ptc-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267323</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/857005/000119312510267323/pmtc-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/857005"><foaf:name>PARAMETRIC TECHNOLOGY CORP</foaf:name><dbpprop:secCik>857005</dbpprop:secCik><ed:cikNumber>0000857005</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/53669/000095012310108118/jci-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108118</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/53669/000095012310108118/jci-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/53669"><foaf:name>JOHNSON CONTROLS INC</foaf:name><dbpprop:secCik>53669</dbpprop:secCik><ed:cikNumber>0000053669</ed:cikNumber><ed:assignedSic>2531</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/63296/000006329610000079/atw-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000063296-10-000079</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/63296/000006329610000079/matw-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/63296"><foaf:name>MATTHEWS INTERNATIONAL CORP</foaf:name><dbpprop:secCik>63296</dbpprop:secCik><ed:cikNumber>0000063296</ed:cikNumber><ed:assignedSic>3360</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1048695/000095012310108100/ffiv-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-108100</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1048695/000095012310108100/ffiv-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1048695"><foaf:name>F5 NETWORKS INC</foaf:name><dbpprop:secCik>1048695</dbpprop:secCik><ed:cikNumber>0001048695</ed:cikNumber><ed:assignedSic>3576</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/310568/000119312510267180/scc-20101003"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-267180</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/310568/000119312510267180/mscc-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/310568"><foaf:name>MICROSEMI CORP</foaf:name><dbpprop:secCik>310568</dbpprop:secCik><ed:cikNumber>0000310568</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1102934/000110293410000042/ccp-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001102934-10-000042</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1102934/000110293410000042/ccmp-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1102934"><foaf:name>CABOT MICROELECTRONICS CORP</foaf:name><dbpprop:secCik>1102934</dbpprop:secCik><ed:cikNumber>0001102934</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/46640/000095012310108028/hnz-20101027"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-108028</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/46640/000095012310108028/hnz-20101027.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/46640"><foaf:name>HEINZ H J CO</foaf:name><dbpprop:secCik>46640</dbpprop:secCik><ed:cikNumber>0000046640</ed:cikNumber><ed:assignedSic>2030</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/858877/000119312510266844/csco-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-266844</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/858877/000119312510266844/csco-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/858877"><foaf:name>CISCO SYSTEMS INC</foaf:name><dbpprop:secCik>858877</dbpprop:secCik><ed:cikNumber>0000858877</ed:cikNumber><ed:assignedSic>3576</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/2969/000119312510266784/apd-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-266784</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/2969/000119312510266784/apd-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/2969"><foaf:name>AIR PRODUCTS &amp; CHEMICALS INC /DE/</foaf:name><dbpprop:secCik>2969</dbpprop:secCik><ed:cikNumber>0000002969</ed:cikNumber><ed:assignedSic>2810</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1061219/000106121910000074/epe-20100930"><ed:formType>8-K/A</ed:formType><ed:accessionNumber>0001061219-10-000074</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1061219/000106121910000074/epe-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1061219"><foaf:name>ENTERPRISE PRODUCTS PARTNERS L P</foaf:name><dbpprop:secCik>1061219</dbpprop:secCik><ed:cikNumber>0001061219</ed:cikNumber><ed:assignedSic>4922</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1061219/000106121910000072/epe-20091231"><ed:formType>8-K</ed:formType><ed:accessionNumber>0001061219-10-000072</ed:accessionNumber><ed:filingDate>11/23/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1061219/000106121910000072/epe-20091231.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1061219"><foaf:name>ENTERPRISE PRODUCTS PARTNERS L P</foaf:name><dbpprop:secCik>1061219</dbpprop:secCik><ed:cikNumber>0001061219</ed:cikNumber><ed:assignedSic>4922</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1079023/000119312510266453/vsea-20101001"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-266453</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1079023/000119312510266453/vsea-20101001.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1079023"><foaf:name>VARIAN SEMICONDUCTOR EQUIPMENT ASSOCIATES INC</foaf:name><dbpprop:secCik>1079023</dbpprop:secCik><ed:cikNumber>0001079023</ed:cikNumber><ed:assignedSic>3559</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/6281/000095012310107816/adi-20101030"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107816</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/6281/000095012310107816/adi-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/6281"><foaf:name>ANALOG DEVICES INC</foaf:name><dbpprop:secCik>6281</dbpprop:secCik><ed:cikNumber>0000006281</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1385187/000119312510266360/cov-20100924"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-266360</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1385187/000119312510266360/cov-20100924.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1385187"><foaf:name>Covidien plc</foaf:name><dbpprop:secCik>1385187</dbpprop:secCik><ed:cikNumber>0001385187</ed:cikNumber><ed:assignedSic>3841</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/829224/000119312510266333/sbu-20101003"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-266333</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/829224/000119312510266333/sbux-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/829224"><foaf:name>STARBUCKS CORP</foaf:name><dbpprop:secCik>829224</dbpprop:secCik><ed:cikNumber>0000829224</ed:cikNumber><ed:assignedSic>5810</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1308547/000119312510266157/db-20100924"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-266157</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1308547/000119312510266157/dlb-20100924.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1308547"><foaf:name>Dolby Laboratories, Inc.</foaf:name><dbpprop:secCik>1308547</dbpprop:secCik><ed:cikNumber>0001308547</ed:cikNumber><ed:assignedSic>3663</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1222333/000095012310107692/gd-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107692</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1222333/000095012310107692/gld-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1222333"><foaf:name>SPDR GOLD TRUST</foaf:name><dbpprop:secCik>1222333</dbpprop:secCik><ed:cikNumber>0001222333</ed:cikNumber><ed:assignedSic>1040</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1305014/000130501410000079/ash-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001305014-10-000079</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1305014/000130501410000079/ash-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1305014"><foaf:name>ASHLAND INC.</foaf:name><dbpprop:secCik>1305014</dbpprop:secCik><ed:cikNumber>0001305014</ed:cikNumber><ed:assignedSic>5160</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/100493/000119312510265708/tsn-20101002"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-265708</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/100493/000119312510265708/tsn-20101002.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/100493"><foaf:name>TYSON FOODS INC</foaf:name><dbpprop:secCik>100493</dbpprop:secCik><ed:cikNumber>0000100493</ed:cikNumber><ed:assignedSic>2015</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/868857/000104746910009946/ac-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-009946</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/868857/000104746910009946/acm-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/868857"><foaf:name>AECOM TECHNOLOGY CORP</foaf:name><dbpprop:secCik>868857</dbpprop:secCik><ed:cikNumber>0000868857</ed:cikNumber><ed:assignedSic>8711</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/230498/000119312510265399/rkt-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-265399</ed:accessionNumber><ed:filingDate>11/22/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/230498/000119312510265399/rkt-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/230498"><foaf:name>Rock-Tenn CO</foaf:name><dbpprop:secCik>230498</dbpprop:secCik><ed:cikNumber>0000230498</ed:cikNumber><ed:assignedSic>2650</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1173431/000095012310107471/atd-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107471</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1173431/000095012310107471/amtd-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1173431"><foaf:name>TD AMERITRADE HOLDING CORP</foaf:name><dbpprop:secCik>1173431</dbpprop:secCik><ed:cikNumber>0001173431</ed:cikNumber><ed:assignedSic>6211</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/884614/000095012310107459/ugi-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107459</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/884614/000095012310107459/ugi-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/884614"><foaf:name>UGI CORP /PA/</foaf:name><dbpprop:secCik>884614</dbpprop:secCik><ed:cikNumber>0000884614</ed:cikNumber><ed:assignedSic>4932</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/932628/000095012310107451/apu-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107451</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/932628/000095012310107451/apu-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/932628"><foaf:name>AMERIGAS PARTNERS LP</foaf:name><dbpprop:secCik>932628</dbpprop:secCik><ed:cikNumber>0000932628</ed:cikNumber><ed:assignedSic>5990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/919012/000095012310107439/aeo-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-107439</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/919012/000095012310107439/aeo-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/919012"><foaf:name>AMERICAN EAGLE OUTFITTERS INC</foaf:name><dbpprop:secCik>919012</dbpprop:secCik><ed:cikNumber>0000919012</ed:cikNumber><ed:assignedSic>5651</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1403161/000119312510265236/v-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-265236</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1403161/000119312510265236/v-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1403161"><foaf:name>VISA INC.</foaf:name><dbpprop:secCik>1403161</dbpprop:secCik><ed:cikNumber>0001403161</ed:cikNumber><ed:assignedSic>7389</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1069799/000109690610001569/pfsd-20100930"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001096906-10-001569</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1069799/000109690610001569/pfsd-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1069799"><foaf:name>PACIFIC SANDS INC</foaf:name><dbpprop:secCik>1069799</dbpprop:secCik><ed:cikNumber>0001069799</ed:cikNumber><ed:assignedSic>3585</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1126956/000112695610000033/g-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001126956-10-000033</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1126956/000112695610000033/lg-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1126956"><foaf:name>LACLEDE GROUP INC</foaf:name><dbpprop:secCik>1126956</dbpprop:secCik><ed:cikNumber>0001126956</ed:cikNumber><ed:assignedSic>4924</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1003344/000119312510265182/hw-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-265182</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1003344/000119312510265182/hw-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1003344"><foaf:name>HEADWATERS INC</foaf:name><dbpprop:secCik>1003344</dbpprop:secCik><ed:cikNumber>0001003344</ed:cikNumber><ed:assignedSic>3272</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/874214/000119312510264905/ann-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-264905</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/874214/000119312510264905/ann-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/874214"><foaf:name>ANNTAYLOR STORES CORP</foaf:name><dbpprop:secCik>874214</dbpprop:secCik><ed:cikNumber>0000874214</ed:cikNumber><ed:assignedSic>5621</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/785786/000095012310107157/ps-20101002"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-107157</ed:accessionNumber><ed:filingDate>11/19/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/785786/000095012310107157/plxs-20101002.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/785786"><foaf:name>PLEXUS CORP</foaf:name><dbpprop:secCik>785786</dbpprop:secCik><ed:cikNumber>0000785786</ed:cikNumber><ed:assignedSic>3672</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/775158/000110465910059145/osk-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001104659-10-059145</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/775158/000110465910059145/osk-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/775158"><foaf:name>OSHKOSH CORP</foaf:name><dbpprop:secCik>775158</dbpprop:secCik><ed:cikNumber>0000775158</ed:cikNumber><ed:assignedSic>3711</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1128928/000095012310107005/fo-20101009"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000950123-10-107005</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1128928/000095012310107005/flo-20101009.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1128928"><foaf:name>FLOWERS FOODS INC</foaf:name><dbpprop:secCik>1128928</dbpprop:secCik><ed:cikNumber>0001128928</ed:cikNumber><ed:assignedSic>2000</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1066026/000119312510263894/cnqr-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-263894</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1066026/000119312510263894/cnqr-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1066026"><foaf:name>CONCUR TECHNOLOGIES INC</foaf:name><dbpprop:secCik>1066026</dbpprop:secCik><ed:cikNumber>0001066026</ed:cikNumber><ed:assignedSic>7372</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1024478/000095012310106922/rok-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-106922</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1024478/000095012310106922/rok-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1024478"><foaf:name>ROCKWELL AUTOMATION INC</foaf:name><dbpprop:secCik>1024478</dbpprop:secCik><ed:cikNumber>0001024478</ed:cikNumber><ed:assignedSic>3829</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/108312/000095012310106894/wgov-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-106894</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/108312/000095012310106894/wgov-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/108312"><foaf:name>WOODWARD GOVERNOR CO</foaf:name><dbpprop:secCik>108312</dbpprop:secCik><ed:cikNumber>0000108312</ed:cikNumber><ed:assignedSic>3620</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1368458/000104746910009883/sbh-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-009883</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1368458/000104746910009883/sbh-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1368458"><foaf:name>Sally Beauty Holdings, Inc.</foaf:name><dbpprop:secCik>1368458</dbpprop:secCik><ed:cikNumber>0001368458</ed:cikNumber><ed:assignedSic>5990</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/935703/000093570310000064/dtr-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000935703-10-000064</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/935703/000093570310000064/dltr-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/935703"><foaf:name>DOLLAR TREE INC</foaf:name><dbpprop:secCik>935703</dbpprop:secCik><ed:cikNumber>0000935703</ed:cikNumber><ed:assignedSic>5331</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1310067/000119312510263486/shd-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-263486</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1310067/000119312510263486/shld-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1310067"><foaf:name>SEARS HOLDINGS CORP</foaf:name><dbpprop:secCik>1310067</dbpprop:secCik><ed:cikNumber>0001310067</ed:cikNumber><ed:assignedSic>5311</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/791519/000110465910058995/sps-20101030"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001104659-10-058995</ed:accessionNumber><ed:filingDate>11/18/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/791519/000110465910058995/spls-20101030.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/791519"><foaf:name>STAPLES INC</foaf:name><dbpprop:secCik>791519</dbpprop:secCik><ed:cikNumber>0000791519</ed:cikNumber><ed:assignedSic>5940</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/882184/000095012310106707/dhi-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-106707</ed:accessionNumber><ed:filingDate>11/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/882184/000095012310106707/dhi-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/882184"><foaf:name>HORTON D R INC /DE/</foaf:name><dbpprop:secCik>882184</dbpprop:secCik><ed:cikNumber>0000882184</ed:cikNumber><ed:assignedSic>1531</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/929887/000095012310106661/apo-20100831"><ed:formType>10-K/A</ed:formType><ed:accessionNumber>0000950123-10-106661</ed:accessionNumber><ed:filingDate>11/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/929887/000095012310106661/apol-20100831.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/929887"><foaf:name>APOLLO GROUP INC</foaf:name><dbpprop:secCik>929887</dbpprop:secCik><ed:cikNumber>0000929887</ed:cikNumber><ed:assignedSic>8200</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1158449/000115844910000101/aap-20101009"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001158449-10-000101</ed:accessionNumber><ed:filingDate>11/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1158449/000115844910000101/aap-20101009.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1158449"><foaf:name>ADVANCE AUTO PARTS INC</foaf:name><dbpprop:secCik>1158449</dbpprop:secCik><ed:cikNumber>0001158449</ed:cikNumber><ed:assignedSic>5531</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/47518/000095012310106600/hrc-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-106600</ed:accessionNumber><ed:filingDate>11/17/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/47518/000095012310106600/hrc-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/47518"><foaf:name>Hill-Rom Holdings, Inc.</foaf:name><dbpprop:secCik>47518</dbpprop:secCik><ed:cikNumber>0000047518</ed:cikNumber><ed:assignedSic>3841</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/936528/000119312510261986/wfs-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-261986</ed:accessionNumber><ed:filingDate>11/16/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/936528/000119312510261986/wfsl-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/936528"><foaf:name>WASHINGTON FEDERAL INC</foaf:name><dbpprop:secCik>936528</dbpprop:secCik><ed:cikNumber>0000936528</ed:cikNumber><ed:assignedSic>6035</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/38777/000119312510261858/ben-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-261858</ed:accessionNumber><ed:filingDate>11/16/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/38777/000119312510261858/ben-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/38777"><foaf:name>FRANKLIN RESOURCES INC</foaf:name><dbpprop:secCik>38777</dbpprop:secCik><ed:cikNumber>0000038777</ed:cikNumber><ed:assignedSic>6282</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/831641/000104746910009822/ttek-20101003"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001047469-10-009822</ed:accessionNumber><ed:filingDate>11/16/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/831641/000104746910009822/ttek-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/831641"><foaf:name>TETRA TECH INC</foaf:name><dbpprop:secCik>831641</dbpprop:secCik><ed:cikNumber>0000831641</ed:cikNumber><ed:assignedSic>8711</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1289236/000095012310105866/br-20100930"><ed:formType>S-4/A</ed:formType><ed:accessionNumber>0000950123-10-105866</ed:accessionNumber><ed:filingDate>11/15/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1289236/000095012310105866/bmr-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1289236"><foaf:name>BioMed Realty Trust Inc</foaf:name><dbpprop:secCik>1289236</dbpprop:secCik><ed:cikNumber>0001289236</ed:cikNumber><ed:assignedSic>6798</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1260221/000119312510260837/tdg-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0001193125-10-260837</ed:accessionNumber><ed:filingDate>11/15/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1260221/000119312510260837/tdg-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1260221"><foaf:name>TransDigm Group INC</foaf:name><dbpprop:secCik>1260221</dbpprop:secCik><ed:cikNumber>0001260221</ed:cikNumber><ed:assignedSic>3728</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1046188/000104618810000037/pbhc-20100930"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001046188-10-000037</ed:accessionNumber><ed:filingDate>11/15/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1046188/000104618810000037/pbhc-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1046188"><foaf:name>PATHFINDER BANCORP INC</foaf:name><dbpprop:secCik>1046188</dbpprop:secCik><ed:cikNumber>0001046188</ed:cikNumber><ed:assignedSic>6036</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1124804/000119312510260108/dr-20100930"><ed:formType>10-Q/A</ed:formType><ed:accessionNumber>0001193125-10-260108</ed:accessionNumber><ed:filingDate>11/15/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1124804/000119312510260108/mdrx-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1124804"><foaf:name>ALLSCRIPTS HEALTHCARE SOLUTIONS, INC.</foaf:name><dbpprop:secCik>1124804</dbpprop:secCik><ed:cikNumber>0001124804</ed:cikNumber><ed:assignedSic>7373</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/731802/000095012310105040/ato-20100930"><ed:formType>10-K</ed:formType><ed:accessionNumber>0000950123-10-105040</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/731802/000095012310105040/ato-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/731802"><foaf:name>ATMOS ENERGY CORP</foaf:name><dbpprop:secCik>731802</dbpprop:secCik><ed:cikNumber>0000731802</ed:cikNumber><ed:assignedSic>4924</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1041514/000106299310003662/ueps-20100930"><ed:formType>10-Q/A</ed:formType><ed:accessionNumber>0001062993-10-003662</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1041514/000106299310003662/ueps-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1041514"><foaf:name>NET 1 UEPS TECHNOLOGIES INC</foaf:name><dbpprop:secCik>1041514</dbpprop:secCik><ed:cikNumber>0001041514</ed:cikNumber><ed:assignedSic>6099</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/867773/000086777310000045/spwra-20101003"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0000867773-10-000045</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/867773/000086777310000045/spwra-20101003.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/867773"><foaf:name>SUNPOWER CORP</foaf:name><dbpprop:secCik>867773</dbpprop:secCik><ed:cikNumber>0000867773</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1080224/000119312510258861/edgr-20100930"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-258861</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1080224/000119312510258861/edgr-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1080224"><foaf:name>EDGAR ONLINE INC</foaf:name><dbpprop:secCik>1080224</dbpprop:secCik><ed:cikNumber>0001080224</ed:cikNumber><ed:assignedSic>7389</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/912093/000119312510258748/jdsu-20101002"><ed:formType>10-Q</ed:formType><ed:accessionNumber>0001193125-10-258748</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/912093/000119312510258748/jdsu-20101002.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/912093"><foaf:name>JDS UNIPHASE CORP /CA/</foaf:name><dbpprop:secCik>912093</dbpprop:secCik><ed:cikNumber>0000912093</ed:cikNumber><ed:assignedSic>3674</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1413159/000119312510258557/tgh-20100930"><ed:formType>6-K</ed:formType><ed:accessionNumber>0001193125-10-258557</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1413159/000119312510258557/tgh-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1413159"><foaf:name>TEXTAINER GROUP HOLDINGS LTD</foaf:name><dbpprop:secCik>1413159</dbpprop:secCik><ed:cikNumber>0001413159</ed:cikNumber><ed:assignedSic>7359</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+    
+      
+      
+      
+      
+      
+      
+      <ed:Filing rdf:about="../id/1352801/000095012310104781/bkc-20100930"><ed:formType>8-K</ed:formType><ed:accessionNumber>0000950123-10-104781</ed:accessionNumber><ed:filingDate>11/12/2010</ed:filingDate><rdfs:seeAlso rdf:resource="http://www.sec.gov/Archives/edgar/data/1352801/000095012310104781/bkc-20100930.xml"/><rdfs:seeAlso><foaf:Organization rdf:about="../id/1352801"><foaf:name>Burger King Holdings Inc</foaf:name><dbpprop:secCik>1352801</dbpprop:secCik><ed:cikNumber>0001352801</ed:cikNumber><ed:assignedSic>5812</ed:assignedSic></foaf:Organization></rdfs:seeAlso></ed:Filing>
+    
+  
+</rdf:RDF>

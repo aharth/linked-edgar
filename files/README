@@ -1,0 +1,19 @@
+all cik's are from:
+ftp://ftp.sec.gov/edgar/full-index/master.gz
+
+all xbrl links are from:
+ftp://ftp.sec.gov/edgar/full-index/xbrl.gz
+
+*all* cumulative ciks:
+http://www.sec.gov/edgar/NYU/cik.coleft.c
+
+rss feeds with updates:
+http://...
+
+http://dbpedia.org/sparql
+select * where {?s <http://dbpedia.org/property/secCik> ?cik .}
+
+
+http://www.rdfabout.com/rdf/usgov/sec/id/cik0001308161
+
+Robert Garcia, I-Semantics 2010

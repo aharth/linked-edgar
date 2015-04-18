@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xsl:stylesheet
+   xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
+   xmlns:bkh="http://www.company.com/20100930"
+   xmlns:dei="http://xbrl.us/dei/2009-01-31"
+   xmlns:ed="http://edgarwrap.ontologycentral.com/vocab/edgar#"
+   xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+   xmlns:link="http://www.xbrl.org/2003/linkbase"
+   xmlns:us-gaap="http://xbrl.us/us-gaap/2009-01-31"
+   xmlns:xbrli="http://www.xbrl.org/2003/instance"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/terms/"
+   xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:gaap="http://edgarwrap.ontologycentral.com/vocab/us-gaap#"
+   xmlns:sdmx-measure="http://purl.org/linked-data/sdmx/2009/measure#"
+   xmlns:qb="http://purl.org/linked-data/cube#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   version='1.0'>
+
+  <xsl:output method='xml' encoding='utf-8'/>
+
+  <xsl:param name="link"/>
+  
+  <xsl:template match="ownershipDocument">
+    <rdf:RDF>
+      <rdf:Description rdf:about="">
+	<rdfs:comment>No guarantee of correctness! USE AT YOUR OWN RISK!</rdfs:comment>
+	<dc:publisher>U.S. Securities and Exchange Commission via edgarwrap (http://edgarwrap.ontologycentral.com/)</dc:publisher>
+	<xsl:if test="$link">
+	  <rdfs:seeAlso>
+	    <xsl:attribute name="rdf:resource"><xsl:value-of select="$link"/></xsl:attribute>
+ 	  </rdfs:seeAlso>
+	</xsl:if>
+      </rdf:Description>
+
+      <qb:Dataset>
+	<xsl:attribute name="rdf:about">#ds</xsl:attribute>
+      </qb:Dataset>
+      <ed:Form>
+	<xsl:attribute name="rdf:about">#ds</xsl:attribute>
+
+	<ed:formType>4</ed:formType>
+	<xsl:if test="$date">
+	  <ed:filingDate><xsl:value-of select="$date"/></ed:filingDate>
+	</xsl:if>
+	<ed:issuer>
+	  <xsl:attribute name="rdf:resource">../../cik/<xsl:value-of select="format-number(issuer/issuerCik, 0)"/>#id</xsl:attribute>
+	</ed:issuer>
+      </ed:Form>
+    </rdf:RDF>
+  </xsl:template>
+
+  <xsl:template match='*'/>
+
+</xsl:stylesheet>

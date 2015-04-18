@@ -1,0 +1,6 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gr: <
+<http://edgarwrap.ontologycentral.com/vocab/edgar#filingDate> a <rdfs:Property> .
+<http://edgarwrap.ontologycentral.com/vocab/edgar#formType> a <rdfs:Property> .
+<http://edgarwrap.ontologycentral.com/vocab/edgar#issuer> a <rdfs:Property> .
+<http://edgarwrap.ontologycentral.com/vocab/edgar#segment> a <rdfs:Property> .

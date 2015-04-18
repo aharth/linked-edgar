@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:variable name="title" select="/rss/channel/title" />
+<xsl:variable name="link" select="/rss/channel/link" />
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>
+          <xsl:value-of select="/rss/channel/title"/>
+        </title>
+        <link rel="stylesheet" type="text/css" href="/rss/styles/rss.css" />
+      </head>
+      <body>
+        <!-- HEADER -->
+        <div id="header">
+          <h1 class="orgname"><a href="/index.htm" name="topofpage"><img src="/rss/images/sec_seal_blue_bg.gif" alt="SEC seal" title="SEC seal" /></a>U.S. Securities and Exchange Commission</h1>
+        </div>
+        <!-- CONTENT -->
+        <div id="content">
+          <!--<p class="lastmoddate"><xsl:value-of select="/rss/channel/pubDate" /></p>-->
+          <h2 class="feedtitle"><xsl:value-of select="/rss/channel/title" /></h2>
+          <!-- BEGIN "WHAT IS THIS PAGE?" SECTION -->
+          <h3>What is this page?</h3>
+          <xsl:choose>
+            <xsl:when test="$title='Interactive Data Filings on EDGAR using US GAAP Taxonomies'">
+              <p>An hourly update of the most recent 100 Interactive Data documents submitted under the "Interactive Data to Improve Financial Reporting" rule (<a href="/rules/final/2009/33-9002.pdf">Release No. 33-9002</a>) using US GAAP as the base taxonomies.</p>
+              <p>The dates indicated in the list below indicate the date and time the filings were accepted by the EDGAR system. The actual filing date may differ and is indicated on the Filing Detail page, to which each item is linked.</p>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:choose>
+                <xsl:when test="$title='Data Submitted in the XBRL Voluntary Program on EDGAR'">
+                  <p>An hourly update of the most recent 100 XBRL documents in support of the "XBRL Voluntary Financial Reporting" Program (<a href="/rules/final/33-8529.pdf">Release No. 33-8529</a>) using US GAAP as the base taxonomies.</p>
+                  <p>The dates indicated in the list below indicate the date and time the filings were accepted by the EDGAR system. The actual filing date may differ and is indicated on the Filing Detail page, to which each item is linked.</p>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:choose>
+                    <xsl:when test="$title='Risk/Return Data Submitted in the XBRL Voluntary Program on EDGAR'">
+                        <p>An hourly update of the most recent 100 documents using the Investment Company Institute's (ICI) Risk Return taxonomy in support of the Extension of Interactive Data Voluntary Reporting Program on the EDGAR System to Include Mutual Fund Risk/Return Summary Information (<a href="/rules/final/2007/33-8823.pdf">Release No. 33-8823</a>).</p>
+                        <p>The dates indicated in the list below indicate the date and time the filings were accepted by the EDGAR system. The actual filing date may differ and is indicated on the Filing Detail page, to which each item is linked.</p>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <xsl:choose>
+                        <xsl:when test="contains($title,'Your Money')">
+                          <p>You are looking at an RSS feed of podcasts from the Securities and Exchange Commission's <a href="/investor.shtml">Office of Investor Education and Assistance</a>. To subscribe, add the URL of this page to your podcast reader or choose your podcast reader below.</p>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:choose>
+                            <xsl:when test="contains($title,'Interactive Data Podcasts')">
+                              <p>You are looking at an RSS feed of podcasts from the Securities and Exchange Commission's <a href="/about/offices/oid.shtml">Office of Interactive Disclosure</a>. To subscribe, add the URL of this page to your podcast reader or choose your podcast reader below.</p>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <p>You are looking at an RSS feed from the Securities and Exchange Commission. To subscribe, add the URL of this page to your newsreader or choose your newsreader below.</p>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:otherwise>
+          </xsl:choose>
+          <!-- BEGIN "SUBSCRIBE TO THIS FEED" SECTION -->
+          <h3>Subscribe to this feed</h3>
+          <ul class="aggregators">
+            <!-- BEGIN AP BUTTONS -->
+            <xsl:if test="contains($title,'Administrative Proceedings')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/litigation/admin.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Administrative%20Proceedings/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/litigation/admin.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/litigation/admin.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN ASK INVESTOR ED BUTTONS -->
+            <xsl:if test="contains($title,'Ask Investor Ed')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/ask_investor_ed/ask_investor_ed.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Ask%20Investor%20Ed/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/ask_investor_ed/ask_investor_ed.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/ask_investor_ed/ask_investor_ed.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN CORP FIN WHAT'S NEW BUTTONS -->
+            <xsl:if test="contains($title,'New in the Division of Corporation Finance')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/divisions/corpfin/cfnew.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20What%27s%20New%20in%20the%20Division%20of%20Corporation%20Finance/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/divisions/corpfin/cfnew.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/divisions/corpfin/cfnew.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN INTERACTIVE DATA BUTTONS -->
+            <xsl:if test="contains($title,'Interactive Data Podcasts')">
+              <li style="padding-right:0;"><a href="/cgi-bin/goodbye.cgi?phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=283326250">Subscribe with iTunes</a> |</li>
+              <li style="padding-right:0;"><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/xbrl/idatapodcasts.xml">Subscribe with Google</a></li>
+            </xsl:if>
+            <!-- BEGIN INVESTOR ALERTS AND BULLETINS -->
+            <xsl:if test="contains($title,'Investor Alerts and Bulletins')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/investor/alertsandbulletins.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20What%27s%20New%20in%20the%20Division%20of%20Corporation%20Finance/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/investor/alertsandbulletins.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/investor/alertsandbulletins.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN LIT RELEASE BUTTONS -->
+            <xsl:if test="contains($title,'Litigation Releases')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/litigation/litreleases.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Litigation%20Releases/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/litigation/litreleases.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/litigation/litreleases.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN NEWS DIGEST BUTTONS -->
+            <xsl:if test="contains($title,'News Digest')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/news/digest.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20News%20Digest/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/news/digest.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/news/digest.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN OIG REPORTS BUTTONS -->
+            <xsl:if test="contains($title,'Office of Inspector General')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec-oig.gov/oigauditlist.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Office%20of%20Inspector%20General%20Reports/*http://add.my.yahoo.com/rss?url=http%3A//www.sec-oig.gov/oigauditlist.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec-oig.gov/oigauditlist.xml.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN PRESS RELEASE BUTTONS -->
+            <xsl:if test="contains($title,'Press Releases')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/news/press.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Press%20Releases/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/news/press.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/news/press.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN PROPOSED RULES BUTTONS -->
+            <xsl:if test="contains($title,'Proposed Rules')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/rules/proposed.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Proposed%20Rules/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/rules/proposed.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/rules/proposed.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN SPEECHES BUTTONS -->
+            <xsl:if test="contains($title,'Speeches')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/news/speech.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Speeches/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/news/speech.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/news/speech.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN YOUR MONEY BUTTONS -->
+            <xsl:if test="contains($title,'Your Money')">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/rss/your_money/your_money.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/SEC.gov%20Updates%3A%20Your%20Money/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/rss/your_money/your_money.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/rss/your_money/your_money.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN RISK RETURN XBRL BUTTONS -->
+            <xsl:if test="$title='Risk/Return Data Submitted in the XBRL Voluntary Program on EDGAR'">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/Archives/edgar/xbrlrss.risk-return.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/Risk%2FReturn%20Data%20Submitted%20in%20the%20XBRL%20Voluntary%20Program%20on%20EDGAR/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/Archives/edgar/xbrlrss.risk-return.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/Archives/edgar/xbrlrss.risk-return.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN VFP XBRL BUTTONS -->
+            <xsl:if test="$title='Data Submitted in the XBRL Voluntary Program on EDGAR'">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http%3A//www.sec.gov/Archives/edgar/xbrlrss.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/Data%20Submitted%20in%20the%20XBRL%20Voluntary%20Program%20on%20EDGAR/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/Archives/edgar/xbrlrss.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/Archives/edgar/xbrlrss.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+            <!-- BEGIN US GAAP XBRL BUTTONS -->
+            <xsl:if test="$title='Interactive Data Filings on EDGAR using US GAAP Taxonomies'">
+              <li><a href="/cgi-bin/goodbye.cgi?fusion.google.com/add?feedurl=http://www.sec.gov/Archives/edgar/usgaap.rss.xml"><img src="/rss/images/add-to-google-plus.gif" width="104" height="17" border="0" alt="Add to Google" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?us.rd.yahoo.com/my/atm/U.S.%20Securities%20and%20Exchange%20Commission/Interactive%20Data%20Filings%20on%20EDGAR%20using%20US%20GAAP%20Taxonomies/*http://add.my.yahoo.com/rss?url=http%3A//www.sec.gov/Archives/edgar/usgaap.rss.xml"><img src="/rss/images/addtomyyahoo4.gif" width="91" height="17" border="0" alt="Add to My Yahoo!" /></a></li>
+              <li><a href="/cgi-bin/goodbye.cgi?www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.sec.gov/Archives/edgar/usgaap.rss.xml"><img runat="server" src="http://www.newsgator.com/images/ngsub1.gif" alt="Subscribe in NewsGator Online" border="0" /></a></li>
+            </xsl:if>
+          </ul>
+          <!-- BEGIN UPDATES SECTION -->
+          <h3>Latest 
+            <xsl:if test="contains($title,'News Digest')">news digests</xsl:if>
+            <xsl:if test="contains($title,'Press Releases')">press releases</xsl:if>
+            <xsl:if test="contains($title,'Speeches')">speeches and public statements</xsl:if>
+            <xsl:if test="contains($title,'Administrative Proceedings')">administrative proceedings</xsl:if>
+            <xsl:if test="contains($title,'Litigation Releases')">litigation releases</xsl:if>
+            <xsl:if test="contains($title,'Proposed Rules')">proposed rules</xsl:if>
+            <xsl:if test="contains($title,'Ask Investor Ed')">Investor Ed columns</xsl:if>
+            <xsl:if test="contains($title,'Your Money')">"Your Money" podcasts</xsl:if>
+            <xsl:if test="contains($title,'New in the Division of Corporation Finance')">updates</xsl:if>
+            <xsl:if test="contains($title,'Interactive Data Podcasts')">Interactive Data podcasts</xsl:if>
+            <xsl:if test="contains($title,'Office of Inspector General')">Office of Inspector General reports</xsl:if>
+            <xsl:if test="contains($link,'Archives')">submissions</xsl:if>
+          </h3>
+          <xsl:choose>
+            <xsl:when test="contains($title,'Your Money')">
+              <table cellpadding="6" cellspacing="0" border="0">
+                <tbody>
+                  <xsl:apply-templates select="/rss/channel/item" />
+                </tbody>
+              </table>
+            </xsl:when>
+            <xsl:otherwise>
+              <ul id="feeditems">
+                <xsl:apply-templates select="/rss/channel/item" />
+              </ul>
+            </xsl:otherwise>
+          </xsl:choose>
+        </div>
+        <!-- NAV BAR -->
+        <div id="nav">
+          <!-- BEGIN SEC.GOV LINKS -->
+          <h4>From SEC.gov</h4>
+          <ul>
+            <li><a href="/index.htm">Home</a></li>
+            <li><a href="/about.shtml">About the SEC</a></li>
+            <li><a href="/edgar.shtml">Filings &amp; Forms (EDGAR)</a></li>
+            <li><a href="/rules.shtml">Regulatory Actions</a></li>
+            <li><a href="/interps.shtml">Staff Interps</a></li>
+            <li><a href="/investor.shtml">Investor Info</a></li>
+            <li><a href="/news.shtml">News &amp; Public Statements</a></li>
+            <li><a href="/litigation.shtml">Litigation</a></li>
+            <li><a href="/info.shtml">Information For</a></li>
+            <li><a href="/divisions.shtml">Divisions</a></li>
+          </ul>
+          <!-- BEGIN FEEDS & PODCASTS LINKS -->
+          <h4>All SEC Feeds &amp; Podcasts</h4>
+          <ul>
+            <li><a href="/rss/litigation/admin.xml">Administrative Proceedings</a></li>
+            <li><a href="/rss/ask_investor_ed/ask_investor_ed.xml">Ask Investor Ed</a></li>
+            <li><a href="/rss/divisions/corpfin/cfnew.xml">Corp Fin What's New</a></li>
+            <li><a href="/rss/xbrl/idatapodcasts.xml">Interactive Data Podcast</a></li>
+			<li><a href="/rss/investor/alertsandbulletins.xml">Investor Alerts and Bulletins</a></li>
+            <li><a href="/rss/litigation/litreleases.xml">Litigation Releases</a></li>
+            <li><a href="/rss/news/digest.xml">News Digest</a></li>
+            <li><a href="http://www.sec-oig.gov/oigauditlist.xml">OIG Reports</a></li>
+            <li><a href="/rss/news/press.xml">Press Releases</a></li>
+            <li><a href="/rss/rules/proposed.xml">Proposed Rules</a></li>
+            <li><a href="/Archives/edgar/xbrlrss.risk-return.xml">Risk Return XBRL</a></li>
+            <li><a href="/rss/news/speech.xml">Speeches &amp; Public Statements</a></li>
+            <li><a href="/Archives/edgar/usgaap.rss.xml">US GAAP XBRL</a></li>
+            <li><a href="/Archives/edgar/xbrlrss.xml">VFP XBRL</a></li>
+            <li><a href="/rss/your_money/your_money.xml">"Your Money" Podcast</a></li>
+          </ul>
+        </div>
+        <!-- FOOTER -->
+        <div id="footer">
+          <ul>
+            <li><a href="#topofpage">Back to top</a> | </li>
+            <li><a href="/index.htm">SEC.gov</a></li>
+          </ul>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+  <xsl:template match="item">
+    <!-- 100 MOST RECENT ALBUMS FOR XBRL FEEDS -->
+    <xsl:choose>
+      <xsl:when test="contains($link,'Archives')">
+        <xsl:if test="position() &lt;= 100">
+          <li>
+            <span class="title"><a href="{link}"><xsl:value-of select="title" /></a></span><br />
+            <span class="filingtype"><xsl:value-of select="description" /></span><br />
+            <span class="pubdate"><xsl:value-of select="pubDate" /></span>
+          </li>
+        </xsl:if>
+      </xsl:when>
+      <!-- 15 MOST RECENT ALBUMS FOR ALL OTHER FEEDS -->
+      <xsl:otherwise>
+        <xsl:if test="position() &lt;= 15">
+          <xsl:choose>
+            <xsl:when test="contains($title,'Your Money')">
+              <!-- ITEM TEMPLATE FOR YOUR MONEY FEED -->
+              <tr>
+                <td width="25%" valign="top">
+                  <xsl:value-of select="substring-after(pubDate,', ')" />
+                </td>
+                <td width="75%" valign="top">
+                  <a href="{guid}"><xsl:value-of select="title" /></a><br />
+                  <xsl:value-of select="description" />
+                </td>
+              </tr>
+            </xsl:when>
+            <xsl:otherwise>
+              <!-- ITEM TEMPLATE FOR ALL OTHER FEEDS -->
+              <li>
+                <xsl:choose>
+                  <xsl:when test="contains($title,'Interactive Data Podcasts')">
+                    <!-- TITLE ELEMENT FOR INTERACTIVE DATA PODCAST FEED -->
+                    <span class="title"><a href="{enclosure/@url}"><xsl:value-of select="title" /></a></span><br />
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <!-- TITLE ELEMENT FOR ALL OTHER FEEDS -->
+                    <span class="title"><a href="{link}"><xsl:value-of select="title" /></a></span><br />
+                  </xsl:otherwise>
+                </xsl:choose>
+                <xsl:choose>
+                  <xsl:when test="contains($title,'New in the Division of Corporation Finance') or contains($title,'Office of Inspector General')">
+                    <!-- NEITHER DESCRIPTION NOR GUID ELEMENT FOR CORP FIN WHAT'S NEW FEED OR OIG REPORTS FEED -->
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:choose>
+                      <xsl:when test="contains($title,'Speeches') or contains($title,'Ask Investor Ed') or contains($title,'Interactive Data Podcasts')">
+                        <!-- DESCRIPTION ELEMENT FOR SPEECHES AND ASK INVESTOR ED FEEDS -->
+                        <span class="description"><xsl:value-of select="description" /></span><br />
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <xsl:choose>
+                          <xsl:when test="contains($title,'News Digest')">
+                            <!-- ISSUE NO. FOR NEWS DIGEST -->
+                            <span class="releasenumber">Issue <xsl:value-of select="guid" /></span><br />
+                          </xsl:when>
+                          <xsl:otherwise>
+                            <!-- RELEASE NO. FOR ALL OTHER FEEDS -->
+                            <span class="releasenumber">Release No. <xsl:value-of select="guid" /></span><br />
+                          </xsl:otherwise>
+                        </xsl:choose>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                  </xsl:otherwise>
+                </xsl:choose>
+                <!-- PUBDATE ELEMENT FOR ALL FEEDS -->
+                <span class="pubdate"><xsl:value-of select="pubDate" /></span>
+              </li>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:if>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+</xsl:stylesheet>

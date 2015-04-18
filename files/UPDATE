@@ -1,0 +1,21 @@
+get:
+
+ftp://ftp.sec.gov/edgar/full-index/xbrl.gz
+
+run:
+
+ConvertXbrl.java
+
+cat xbrl.2 >> xbrl.1
+
+---------
+
+get:
+
+http://www.sec.gov/edgar/NYU/cik.coleft.c
+
+run:
+
+ConvertCik
+
+replace ciks.txt.gz with new one

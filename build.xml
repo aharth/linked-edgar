@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="edgarwrap" basedir="." default="dist">
+<property name="name" value="edgarwrap"/>
+<property name="version" value="trunk"/>
+<property name="dist" value="dist"/>
+
+<path id="classpath">
+  <fileset dir="war/WEB-INF/lib">
+    <include name="*.jar"/>
+  </fileset>
+  <fileset dir="lib">
+    <include name="*.jar"/>
+  </fileset>
+</path>
+		
+<target name="prepare">
+  <tstamp />
+  <mkdir dir="bin"/>
+  <mkdir dir="dist"/>
+</target>
+
+<target name="clean">
+  <delete dir="bin"/>
+  <delete dir="dist"/>
+</target>	  
+
+<target name="dist" depends="prepare">
+    <javac destdir="bin"
+	   srcdir="src"
+           source="1.5" target="1.5">
+      <classpath refid="classpath"/>
+    </javac>
+
+    <jar jarfile="${dist}/${name}-${version}-lib.jar" basedir="bin"/>
+
+    <war destfile="dist/${name}-${version}.war"
+	 webxml="war/WEB-INF/web.xml" basedir="war/">
+      <lib file="dist/${name}-${version}.jar"/>
+      <lib dir="lib/"/>
+    </war>
+</target>
+		
+</project>

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>SEC Edgar Linked Data Wrapper</title>
+  </head>
+
+  <body>
+    <h1>SEC Edgar Linked Data Wrapper</h1>
+
+	<p>
+	  Welcome to the EXPERIMENTAl <a href="http://edgar.sec.gov/">SEC Edgar</a> wrapper to <a href="http://en.wikipedia.org/wiki/Linked_Data">Linked Data</a>.
+	</p>
+	<p>
+	  The wrapper currently provides XBRL forms (10-Q, 10-K, 8-K, S4-A, 6-K, 10-Q/A) and form 4.
+	</p>
+	
+	<ul>
+		<li><a href="feed/usgaap">feed/usgaap</a> (from the <a href="http://www.sec.gov/Archives/edgar/usgaap.rss.xml">live Edgar feed</a>)</li>
+		<li><a href="cik/909832#id">cik/90983#id</a> COSTCO WHOLESALE CORP /NEW (<a href="./archive/909832/0001193125-10-230379#ds">example form 10-K</a>)</li>
+		<li><a href="cik/835403#id">cik/835403#id</a> DIAGEO PLC</li>
+		<li><a href="cik/1230276#id">cik/1230276#id</a> Pandora Media, Inc.</li>
+		<li><a href="cik/1014931#id">cik/1014931#id</a> VULCAN VENTURES INC</li>
+		<li><a href="cik/904057#id">cik/904057#id</a> ALLEN PAUL G</li>
+		<li><a href="cik/5272#id">cik/5272#id</a> AMERICAN INTERNATIONAL GROUP INC</li>
+		<li><a href="cik/831001#id">cik/831001#id</a> CITIGROUP INC (<a href="./archive/831001/0001209191-10-048277#ds">example form 4</a>) <!--, <a href="">example form 10-K)--></li>
+		<li><a href="ticker/GOOG#id">ticker/GOOG#id</a> GOOGLE INC</li>
+		<li><a href="sic/">sic/</a> Standard Industry Code</li>
+		<li><a href="cik/">cik/</a> Selected agent (organisations, persons) instances including links to filings.</li>
+	</ul>
+	
+<!--
+	<p>
+		You can also download <a href="sample-2010-12-23.rdf.gz">a small portion of the EDGAR data in RDF</a>.
+	</p>
+-->	
+	<p>
+		Related: <a href="http://www.rdfabout.com/demo/sec/">SEC data at rdfabout.com</a>.
+	</p>
+	
+	<h2>Changes</h2>
+    
+    <dl>
+       	<dt>2014-07-26</dt>
+    	<dd>underlying EDGAR archive fromat has changed; new 10-K's might not be correctly converted any more, any help appreciated</dd>
+
+       	<dt>2014-04-02</dt>
+    	<dd>link to <a href="cik/">selected agent instances with filings added</a>, fixed links to changed Freebase URI scheme</dd>
+
+	<dt>2013-09-19</dt>
+    	<dd>adapted modeling closer towards <a href="http://www.w3.org/TR/vocab-data-cube/">RDF Data Cube specification</a></dd>
+
+       	<dt>2013-02-24</dt>
+    	<dd>now with more <a href="dbpedia-sameas.rdf">sameAs links</a> to DBpedia</dd>
+    
+       	<dt>2011-11-25</dt>
+    	<dd>three versions of us-gaap (<a href="vocab/us-gaap-2008-03-31">2008</a>, <a href="vocab/us-gaap-2009-01-31.rdf">2009</a> and  <a href="vocab/us-gaap-2011-01-31.rdf">2011</a>), now are dimension values rather than measures</dd>
+
+       	<dt>2011-11-20</dt>
+    	<dd>added cik/sic mappings and more links to xbrl filings</dd>
+
+       	<dt>2011-10-18</dt>
+    	<dd>added property range link to GoodRelations</dd>
+
+       	<dt>2011-08-14</dt>
+    	<dd>strip html from notes</dd>
+
+       	<dt>2011-08-07</dt>
+    	<dd>added ticker ids, e.g., <a href="ticker/ZION#id">ticker/ZION#id</a></dd>
+
+       	<dt>2011-05-31</dt>
+    	<dd>added initial vocabulary files (<a href="vocab/edgar.rdf">edgar</a>, <a href="vocab/us-gaap.rdf">us-gaap</a>)</dd>
+
+       	<dt>2011-05-09</dt>
+    	<dd>added issuer to observations, and added first draft of qb:DataStructureDefinition</dd>
+
+       	<dt>2011-04-19</dt>
+    	<dd>only random selection of <a href="cik/links.rdf">links</a> are returned due to resource constraints (file too large)</dd>
+
+       	<dt>2011-04-18</dt>
+    	<dd>now with a lot of <a href="cik/links.rdf">links</a> to FreeBase</dd>
+
+    	<dt>2011-01-06</dt>
+    	<dd>now includes complete CIK list from EDGAR</dd>
+    </dl>
+
+    <hr/>
+    <a href="http://ontologycentral.com/">OntologyCentral</a>, 2011.
+  </body>
+</html>

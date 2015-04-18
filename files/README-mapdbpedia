@@ -1,0 +1,5 @@
+zcat ciks.txt.gz | egrep -e " INC| CORP| AG| CO| LLC" > ../../files/cik-companies.txt
+
+java -jar /home/aharth/workspace/bowsim/dist/bowsim-0.1.jar -i index -m edgar-cik-labels-ibm.nt
+
+java -jar /home/aharth/workspace/bowsim/dist/bowsim-0.1.jar -i index -c dbpedia_en-ibm.nt

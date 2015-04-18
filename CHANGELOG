@@ -1,0 +1,44 @@
+==2015-04-18==
+* Removed App Engine
+* ant build script
+* prepare for GitHub	
+
+==2014-04-03==
+* Updated to appengine-java-sdk-1.7.7
+* Small fixes due to change to Java 7 and new appengine.
+
+==Roadmap==
+* Better model instand and period not with ical:dtstart and ical:dtend but a period dimension with a label "2013-01-01 to 2013-09-01" (or similar).
+* Add other concepts, not only us-gaap and us-gaap1, but also cost etc.
+* Also model information about units and decimals of numeric observations
+* Apparently, many datasets cannot be represented, e.g., http://edgarwrap.ontologycentral.com/archive/1556593/0001193125-13-373521#ds
+
+==2013-09-19==
+* Added proper label in English to the dataset.
+
+==2013-09-18==
+* Problem: Some observations may get empty double obsValues, e.g., http://edgarwrap.ontologycentral.com/archive/909832/0001193125-10-230379#ds at line 751, column 299 [1] (was not too easy to find since we were looking for "XMLSchema#double"/>".
+* Let's see how this is stored in XBRL. According to XBRL spec [2], tuples can have value nil (xsi:nil="true").
+* Since QB is restricted to describe existing values (IC-17. All measures present in measures dimension cube in [3]), we need to remove those observations from the description. 
+* Solution: We match on those tags that do not have an xsi:nil=true. 
+
+[1] <rdf:Description rdf:about="#ds"><rdfs:seeAlso><qb:Observation><qb:dataSet rdf:resource="#ds"/><ed:subject rdf:resource="http://edgarwrap.ontologycentral.com/vocab/us-gaap-2009-01-31#CommitmentsAndContingencies2009"/><sdmx-measure:obsValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double"/><ical:dtstart>2008-09-01</ical:dtstart><ical:dtend>2009-08-30</ical:dtend><ed:issuer rdf:resource="../../cik/909832#id"/><ed:segment>0000909832 2008-09-01 2009-08-30</ed:segment></qb:Observation></rdfs:seeAlso></rdf:Description>
+[2] <http://www.xbrl.org/technical/guidance/FRIS-PWD-2004-11-14.htm>
+[3] <http://www.w3.org/TR/vocab-data-cube/#wf-rules>
+
+* Problem: Some values are no numbers
+** So far, we have simply tested whether value has fewer than 20 characters.
+** Now, we properly check, whether number
+
+* Problem: Failed specification check: IC-4. Dimensions have range. Every dimension declared in a qb:DataStructureDefinition must have a declared rdfs:range.
+** ObsValue Measure does not need a range (actually, there should be one defined? No there is not [5]). Thus, we should define one, later.
+** issuer does have as range a Business Entity (resolveable)
+** segment does not have a range, we should put xsd:string as range
+** dtstart and dtend also have a range specified at [4]
+** subject does not have a range at [4] specified. We might be able to create a code list, but for now we just define edgar:Subject as type for degenerated dimension.
+
+[4] <http://www.w3.org/2002/12/cal/ical#>
+[5] <http://purl.org/linked-data/sdmx/2009/measure#obsValue>
+
+* Problem: Some observations serve a date, some a period.
+** Solution: We always describe ical:start and end, and use date for both (instant).
