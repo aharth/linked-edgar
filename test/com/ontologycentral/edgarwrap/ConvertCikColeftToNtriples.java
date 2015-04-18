@@ -1,4 +1,4 @@
-package com.ontologycentral.egdarwrap;
+package com.ontologycentral.edgarwrap;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,10 +10,18 @@ import java.util.StringTokenizer;
 
 import junit.framework.TestCase;
 
-public class ConvertCikColeft extends TestCase {
+import org.semanticweb.yars.nx.Literal;
+import org.semanticweb.yars.nx.Node;
+import org.semanticweb.yars.nx.Nodes;
+import org.semanticweb.yars.nx.Resource;
+import org.semanticweb.yars.nx.namespace.FOAF;
+import org.semanticweb.yars.nx.namespace.RDF;
+import org.semanticweb.yars.nx.namespace.RDFS;
+
+public class ConvertCikColeftToNtriples extends TestCase {
 	public void testConvert() throws IOException {
 		FileInputStream in = new FileInputStream("files/cik.coleft.c");
-		FileOutputStream out = new FileOutputStream("files/ciks.txt");
+		FileOutputStream out = new FileOutputStream("files/dbpedia-map/edgar-cik-labels.nt");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		PrintWriter pw = new PrintWriter(out);
@@ -48,7 +56,9 @@ public class ConvertCikColeft extends TestCase {
 			}
 
 			if (cik != null && name != null) {
-				pw.println(cik + "\t " + name);
+				Resource subj = new Resource("http://edgarwrap.ontologycentral.com/cik/" + cik);
+				pw.println(Nodes.toN3(new Node[] { subj, RDF.TYPE, FOAF.AGENT } ));
+				pw.println(Nodes.toN3(new Node[] { subj, RDFS.LABEL, new Literal(name) } ));
 			}
 		}
 		in.close();

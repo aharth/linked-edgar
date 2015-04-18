@@ -1,4 +1,4 @@
-package com.ontologycentral.egdarwrap;
+package com.ontologycentral.edgarwrap;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

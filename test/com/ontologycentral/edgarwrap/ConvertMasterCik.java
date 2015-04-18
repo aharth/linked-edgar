@@ -1,4 +1,4 @@
-package com.ontologycentral.egdarwrap;
+package com.ontologycentral.edgarwrap;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,10 +10,10 @@ import java.util.StringTokenizer;
 
 import junit.framework.TestCase;
 
-public class ConvertMasterForm4 extends TestCase {
+public class ConvertMasterCik extends TestCase {
 	public void testConvert() throws IOException {
-		FileInputStream in = new FileInputStream("files/master");
-		FileOutputStream out = new FileOutputStream("files/master-form4.new");
+		FileInputStream in = new FileInputStream("test/master");
+		FileOutputStream out = new FileOutputStream("test/master.1");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		PrintWriter pw = new PrintWriter(out);
@@ -36,22 +36,16 @@ public class ConvertMasterForm4 extends TestCase {
 			StringTokenizer tok = new StringTokenizer(line, ""+c);
 			
 			String cik = null;
+			String name = null;
 			
 			if (tok.hasMoreTokens()) {
 				cik = tok.nextToken();
 			}
-			
-			tok.nextToken();			
-			String form = tok.nextToken().trim();
-						
-			if ("4".equals(form)) {
-				tok.nextToken();
-
-				String id = tok.nextToken();
-				id = id.substring(0, id.length()-4);
-
-				pw.println(cik + "\t " + id.substring(11));	
+			if (tok.hasMoreTokens()) {
+				name = tok.nextToken();
 			}
+			
+			pw.println(cik + "\t " + name);
 		}
 		in.close();
 		pw.close();

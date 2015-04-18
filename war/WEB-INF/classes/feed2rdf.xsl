@@ -1,1 +1,0 @@
-link ../war/WEB-INF/feed2rdf.xsl

@@ -1,4 +1,4 @@
-package com.ontologycentral.egdarwrap;
+package com.ontologycentral.edgarwrap;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,10 +10,10 @@ import java.util.StringTokenizer;
 
 import junit.framework.TestCase;
 
-public class ConvertXbrl extends TestCase {
+public class ConvertMasterForm4 extends TestCase {
 	public void testConvert() throws IOException {
-		FileInputStream in = new FileInputStream("files/xbrl");
-		FileOutputStream out = new FileOutputStream("files/xbrl.new");
+		FileInputStream in = new FileInputStream("files/master");
+		FileOutputStream out = new FileOutputStream("files/master-form4.new");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(in));
 		PrintWriter pw = new PrintWriter(out);
@@ -40,19 +40,18 @@ public class ConvertXbrl extends TestCase {
 			if (tok.hasMoreTokens()) {
 				cik = tok.nextToken();
 			}
-			tok.nextToken();
 			
-			String type = tok.nextToken();
-			
-			String date = tok.nextToken();
+			tok.nextToken();			
+			String form = tok.nextToken().trim();
+						
+			if ("4".equals(form)) {
+				tok.nextToken();
 
-			String id = tok.nextToken();
-			
-			id = id.substring(11);
-			int end = id.length()-4;
-			id = id.substring(0, end);
-			
-			pw.println(cik + "\t " + id + "\t" + type + "\t" + date);
+				String id = tok.nextToken();
+				id = id.substring(0, id.length()-4);
+
+				pw.println(cik + "\t " + id.substring(11));	
+			}
 		}
 		in.close();
 		pw.close();
