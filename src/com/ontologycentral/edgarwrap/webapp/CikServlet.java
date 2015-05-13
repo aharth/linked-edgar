@@ -51,18 +51,13 @@ public class CikServlet extends HttpServlet {
 
 		ServletContext ctx = getServletContext();
 
-		Map<Integer, String> ciks = (Map<Integer, String>) ctx
-				.getAttribute(Listener.CIK);
-		Map<Integer, String> dbpedia = (Map<Integer, String>) ctx
-				.getAttribute(Listener.CIKDBP);
-		Map<Integer, String> freebase = (Map<Integer, String>) ctx
-				.getAttribute(Listener.CIKFB);
-		Map<Integer, Set<String>> filings = (Map<Integer, Set<String>>) ctx
-				.getAttribute(Listener.CIKXBRL);
-		Map<Integer, Set<String>> form4 = (Map<Integer, Set<String>>) ctx
-				.getAttribute(Listener.CIKFORM4);
-		Map<Integer, Integer> ciksic = (Map<Integer, Integer>) ctx
-				.getAttribute(Listener.CIKSIC);
+		Map<Integer, String> ciks = (Map<Integer, String>) ctx.getAttribute(Listener.CIK);
+		Map<Integer, String> dbpedia = (Map<Integer, String>) ctx.getAttribute(Listener.CIKDBP);
+		Map<Integer, String> freebase = (Map<Integer, String>) ctx.getAttribute(Listener.CIKFB);
+		Map<Integer, Set<String>> filings = (Map<Integer, Set<String>>) ctx.getAttribute(Listener.CIKXBRL);
+		Map<Integer, Set<String>> form4 = (Map<Integer, Set<String>>) ctx.getAttribute(Listener.CIKFORM4);
+		Map<Integer, Integer> ciksic = (Map<Integer, Integer>) ctx.getAttribute(Listener.CIKSIC);
+		Map<String, String[]> ftd = (Map<String, String[]>) ctx.getAttribute(Listener.XBRLTYPEDATE);
 
 		Integer cik = -1;
 
@@ -86,14 +81,13 @@ public class CikServlet extends HttpServlet {
 			ch.writeStartDocument("utf-8", "1.0");
 
 			ch.writeStartElement("rdf:RDF");
-			ch.writeNamespace("rdf",
-					"http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+			ch.writeNamespace("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 			ch.writeNamespace("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
 			ch.writeNamespace("foaf", "http://xmlns.com/foaf/0.1/");
 			ch.writeNamespace("owl", "http://www.w3.org/2002/07/owl#");
 			ch.writeNamespace("dbp", "http://dbpedia.org/property/");
-			ch.writeNamespace("ed",
-					"http://edgarwrap.ontologycentral.com/vocab/edgar#");
+			ch.writeNamespace("dc", "http://purl.org/dc/elements/1.1/");
+			ch.writeNamespace("ed", "http://edgarwrap.ontologycentral.com/vocab/edgar#");
 			ch.writeNamespace("dcterms", "http://purl.org/dc/terms/");
 			ch.writeNamespace("qb", "http://purl.org/linked-data/cube#");
 
@@ -129,16 +123,15 @@ public class CikServlet extends HttpServlet {
 					if (count++ > 1024) {
 						break;
 					}
-					Agent a = new Agent(i, ciks.get(i), filings.get(i),
-							form4.get(i));
+
+					Agent a = new Agent(i, ciks.get(i), filings.get(i), form4.get(i), ftd);
 					if (dbpedia.containsKey(cik)) {
 						a.addSameAs(dbpedia.get(cik));
 					}
 					a.toXml(ch);
 				}
 			} else {
-				Agent a = new Agent(cik, ciks.get(cik), filings.get(cik),
-						form4.get(cik));
+				Agent a = new Agent(cik, ciks.get(cik), filings.get(cik), form4.get(cik), ftd);
 
 				if (ciksic.containsKey(cik)) {
 					a.addSic(ciksic.get(cik));
@@ -147,8 +140,7 @@ public class CikServlet extends HttpServlet {
 					a.addSameAs(dbpedia.get(cik));
 				}
 				if (freebase.containsKey(cik)) {
-					a.addSameAs("http://rdf.freebase.com/ns/business.cik/"
-							+ freebase.get(cik));
+					a.addSameAs("http://rdf.freebase.com/ns/business.cik/" + freebase.get(cik));
 				}
 				a.toXml(ch);
 			}

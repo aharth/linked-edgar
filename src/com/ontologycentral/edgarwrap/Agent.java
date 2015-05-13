@@ -2,6 +2,7 @@ package com.ontologycentral.edgarwrap;
 
 import java.text.NumberFormat;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 import javax.xml.stream.XMLStreamException;
@@ -17,15 +18,17 @@ public class Agent {
 	Integer _cik;
 	String _name;
 	Set<String> _xbrl;
+	Map<String, String[]> _ftd;
 	Set<String> _form4;
-	
+
 	Set<String> _same;
 	Integer _sic = null;
 	
-	public Agent(int cik, String name, Set<String> xbrl, Set<String> form4) {
+	public Agent(int cik, String name, Set<String> xbrl, Set<String> form4, Map<String, String[]> ftd) {
 		_cik = cik;
 		_name = name;
 		_xbrl = xbrl;
+		_ftd = ftd;
 		_form4 = form4;
 		
 		_same = new HashSet<String>();
@@ -82,6 +85,22 @@ public class Agent {
 				ch.writeStartElement("ed:issued");
 				ch.writeStartElement("qb:Dataset");	
 				ch.writeAttribute("rdf:about", "../archive/" + _cik + "/" + accessionno + "#ds");
+
+				if (_ftd.containsKey(accessionno)) {
+					String ftype = _ftd.get(accessionno)[0];
+					String fdate = _ftd.get(accessionno)[1];					
+
+					if (ftype != null) {
+						ch.writeStartElement("ed:form");
+						ch.writeCharacters(ftype);
+						ch.writeEndElement();
+					}
+					if (fdate != null) {
+						ch.writeStartElement("dc:date");
+						ch.writeCharacters(fdate);
+						ch.writeEndElement();
+					}
+				}
 
 //				ch.writeStartElement("rdfs:seeAlso");
 //				String archive = "http://www.sec.gov/Archives/edgar/data/" + _cik + "/" + accessionno.replace("-", "") + "/" + accessionno + "-xbrl.zip";

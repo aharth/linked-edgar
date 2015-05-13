@@ -15,8 +15,6 @@ import javax.xml.stream.XMLOutputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamWriter;
 
-import net.sf.jsr107cache.Cache;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -49,13 +47,13 @@ public class TickerServlet extends HttpServlet {
 
 		ServletContext ctx = getServletContext();
 
-		Cache cache = (Cache)ctx.getAttribute(Listener.CACHE);
+//		Cache cache = (Cache)ctx.getAttribute(Listener.CACHE);
 
 		String cik = null;
 		
-		if (cache.containsKey(id)) {
-			cik = (String)cache.get(id);
-		} else {
+//		if (cache.containsKey(id)) {
+//			cik = (String)cache.get(id);
+//		} else {
 			// <link rel="alternate" type="application/atom+xml" title="ATOM" href="/cgi-bin/browse-edgar?action=getcompany&amp;CIK=0000109380&amp;type=&amp;dateb=&amp;owner=exclude&amp;count=40&amp;output=atom" />
 			Document doc = Jsoup.connect("http://www.sec.gov/cgi-bin/browse-edgar?CIK=" + id + "&action=getcompany").get();
 
@@ -70,9 +68,9 @@ public class TickerServlet extends HttpServlet {
 			int start = href.indexOf("CIK=") + 4;
 			int end = href.indexOf("&", start);
 			cik = href.substring(start, end);
-
-			cache.put(id, cik);
-		}
+//
+//			cache.put(id, cik);
+//		}
 			
 		try {
 			XMLOutputFactory factory = (XMLOutputFactory)ctx.getAttribute(Listener.FACTORY);

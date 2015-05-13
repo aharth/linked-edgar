@@ -22,6 +22,7 @@ import javax.servlet.ServletContextListener;
 import javax.xml.stream.XMLOutputFactory;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamSource;
 
 import net.sf.jsr107cache.Cache;
@@ -53,9 +54,9 @@ public class Listener implements ServletContextListener {
 	public static String CIKSIC = "ciksic";
 	public static String SICCIK = "siccik";
 
-	public static String CACHE = "c";
+//	public static String CACHE = "c";
 	public static String FACTORY = "f";
-	
+
 	public static String DATASTORE = "dss";
 	
 	public void contextInitialized(ServletContextEvent event) {
@@ -65,9 +66,11 @@ public class Listener implements ServletContextListener {
 //		      javax.xml.transform.TransformerFactory.newInstance(
 //			"net.sf.saxon.TransformerFactoryImpl",
 //		    		  Thread.currentThread().getContextClassLoader()); 
+//
+//		javax.xml.transform.TransformerFactory tf =
+//			javax.xml.transform.TransformerFactory.newInstance("org.apache.xalan.processor.TransformerFactoryImpl", this.getClass().getClassLoader() ); 
 
-		javax.xml.transform.TransformerFactory tf =
-			javax.xml.transform.TransformerFactory.newInstance("org.apache.xalan.processor.TransformerFactoryImpl", this.getClass().getClassLoader() ); 
+		TransformerFactory tf = TransformerFactory.newInstance();
 
 		try {
 			Transformer t = tf.newTransformer(new StreamSource(ctx.getRealPath("/WEB-INF/feed2rdf.xsl")));
@@ -192,11 +195,10 @@ public class Listener implements ServletContextListener {
 					}
 				}
 			}
-			
-			ctx.setAttribute(CIKXBRL, filings);
-			
-			ctx.setAttribute(XBRLTYPEDATE, ftd);
 
+			ctx.setAttribute(CIKXBRL, filings);
+
+			ctx.setAttribute(XBRLTYPEDATE, ftd);
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException(e);
@@ -397,15 +399,15 @@ public class Listener implements ServletContextListener {
 			}
 		}
 		
-		Cache cache = null;
-
-		try {
-			CacheFactory cacheFactory = CacheManager.getInstance().getCacheFactory();
-			cache = cacheFactory.createCache(Collections.emptyMap());
-			ctx.setAttribute(CACHE, cache);
-		} catch (CacheException e) {
-			e.printStackTrace();
-		}
+//		Cache cache = null;
+//
+//		try {
+//			CacheFactory cacheFactory = CacheManager.getInstance().getCacheFactory();
+//			cache = cacheFactory.createCache(Collections.emptyMap());
+//			ctx.setAttribute(CACHE, cache);
+//		} catch (CacheException e) {
+//			e.printStackTrace();
+//		}
 		
 //		DatastoreService dss = DatastoreServiceFactory.getDatastoreService();
 //

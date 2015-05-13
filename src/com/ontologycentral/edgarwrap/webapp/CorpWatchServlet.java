@@ -6,6 +6,7 @@ import java.io.OutputStream;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 import java.util.logging.Logger;
@@ -111,14 +112,14 @@ public class CorpWatchServlet extends HttpServlet {
 			
 			if (id.length() == 0) {
 				for (Integer i : filings.keySet()) {
-					Agent a = new Agent(i, ciks.get(i), filings.get(i), form4.get(i));
+					Agent a = new Agent(i, ciks.get(i), filings.get(i), form4.get(i), Collections.EMPTY_MAP);
 					if (dbpedia.containsKey(cik)) {
 						a.addSameAs(dbpedia.get(cik));
 					}
 					a.toXml(ch);
 				}
 			} else {
-				Agent a = new Agent(cik, ciks.get(cik), filings.get(cik), form4.get(cik));
+				Agent a = new Agent(cik, ciks.get(cik), filings.get(cik), form4.get(cik), Collections.EMPTY_MAP);
 				
 				if (ciksic.containsKey(cik)) {
 					a.addSic(ciksic.get(cik));
